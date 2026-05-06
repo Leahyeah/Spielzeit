@@ -1,0 +1,121 @@
+# Anthropic Research Archive
+
+Source: https://www.anthropic.com/research and https://www.anthropic.com/sitemap.xml
+Last updated: 2026-05-06
+Archived pages: 111
+
+This archive stores Anthropic public research pages as Markdown for reading and follow-up summaries.
+
+## Publications
+
+- [How people ask Claude for personal guidance](research/claude-personal-guidance.md) - Societal Impacts | Apr 30, 2026
+- [Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench](research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench.md) - Science | Apr 29, 2026
+- [What 81,000 people told us about the economics of AI](research/81k-economics.md) - Economic Research | Apr 22, 2026
+- [Announcing the Anthropic Economic Index Survey](research/economic-index-survey-announcement.md) - Economic Research | Apr 22, 2026
+- [Automated Alignment Researchers: Using large language models to scale scalable oversight](research/automated-alignment-researchers.md) - Alignment | Apr 14, 2026
+- [Trustworthy agents in practice](research/trustworthy-agents.md) - Policy | Apr 9, 2026
+- [Emotion concepts and their function in a large language model](research/emotion-concepts-function.md) - Interpretability | Apr 2, 2026
+- [How Australia Uses Claude: Findings from the Anthropic Economic Index](research/how-australia-uses-claude.md) - Economic Research | Mar 31, 2026
+- [Anthropic Economic Index report: Learning curves](research/economic-index-march-2026-report.md) - Economic Research | Mar 24, 2026
+- [Vibe physics: The AI grad student](research/vibe-physics.md) - Science | Mar 23, 2026
+- [Long-running Claude for scientific computing](research/long-running-Claude.md) - Science | Mar 23, 2026
+- [Introducing our Science Blog](research/introducing-anthropic-science.md) - Science | Mar 23, 2026
+- [A “diff” tool for AI: Finding behavioral differences in new models](research/diff-tool.md) - Interpretability | Mar 13, 2026
+- [Labor market impacts of AI: A new measure and early evidence](research/labor-market-impacts.md) - Economic Research | Mar 5, 2026
+- [An update on our model deprecation commitments for Claude Opus 3](research/deprecation-updates-opus-3.md) - Alignment | Feb 25, 2026
+- [The persona selection model](research/persona-selection-model.md) - Alignment | Feb 23, 2026
+- [Anthropic Education Report: The AI Fluency Index](research/AI-fluency-index.md) - Announcements | Feb 23, 2026
+- [Measuring AI agent autonomy in practice](research/measuring-agent-autonomy.md) - Societal Impacts | Feb 18, 2026
+- [India Country Brief: The Anthropic Economic Index](research/india-brief-economic-index.md) - Economic Research | Feb 16, 2026
+- [How AI assistance impacts the formation of coding skills](research/AI-assistance-coding-skills.md) - Alignment | Jan 29, 2026
+- [Disempowerment patterns in real-world AI usage](research/disempowerment-patterns.md) - Alignment | Jan 28, 2026
+- [The assistant axis: situating and stabilizing the character of large language models](research/assistant-axis.md) - Interpretability | Jan 19, 2026
+- [Anthropic Economic Index: New building blocks for understanding AI use](research/economic-index-primitives.md) - Economic Research | Jan 15, 2026
+- [Anthropic Economic Index report: Economic primitives](research/anthropic-economic-index-january-2026-report.md) - Economic Research | Jan 15, 2026
+- [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](research/next-generation-constitutional-classifiers.md) - Alignment | Jan 9, 2026
+- [Introducing Bloom: an open source tool for automated behavioral evaluations](research/bloom.md) - Alignment | Dec 19, 2025
+- [Project Vend: Phase two](research/project-vend-2.md) - Policy Frontier Red Team | Dec 18, 2025
+- [Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI](research/anthropic-interviewer.md) - Societal Impacts | Dec 4, 2025
+- [How AI is transforming work at Anthropic](research/how-ai-is-transforming-work-at-anthropic.md) - Societal Impacts | Dec 2, 2025
+- [Estimating AI productivity gains from Claude conversations](research/estimating-productivity-gains.md) - Economic Research | Nov 25, 2025
+- [Mitigating the risk of prompt injections in browser use](research/prompt-injection-defenses.md) - Product | Nov 24, 2025
+- [From shortcuts to sabotage: natural emergent misalignment from reward hacking](research/emergent-misalignment-reward-hacking.md) - Alignment | Nov 21, 2025
+- [Project Fetch: Can Claude train a robot dog?](research/project-fetch-robot-dog.md) - Policy Frontier Red Team | Nov 12, 2025
+- [Commitments on model deprecation and preservation](research/deprecation-commitments.md) - Alignment | Nov 4, 2025
+- [Signs of introspection in large language models](research/introspection.md) - Interpretability | Oct 29, 2025
+- [Preparing for AI’s economic impact: exploring policy responses](research/economic-policy-responses.md) - Policy | Oct 14, 2025
+- [A small number of samples can poison LLMs of any size](research/small-samples-poison.md) - Alignment | Oct 9, 2025
+- [Petri: An open-source auditing tool to accelerate AI safety research](research/petri-open-source-auditing.md) - Alignment | Oct 6, 2025
+- [Building AI for cyber defenders](research/building-ai-cyber-defenders.md) - Policy | Oct 3, 2025
+- [Anthropic Economic Index: Tracking AI’s role in the US and global economy](research/economic-index-geography.md) - Economic Research | Sep 15, 2025
+- [Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](research/anthropic-economic-index-september-2025-report.md) - Economic Research | Sep 15, 2025
+- [Claude Opus 4 and 4.1 can now end a rare subset of conversations](research/end-subset-conversations.md) - Alignment | Aug 15, 2025
+- [Persona vectors: Monitoring and controlling character traits in language models](research/persona-vectors.md) - Interpretability | Aug 1, 2025
+- [Project Vend: Can Claude run a small shop? (And why does that matter?)](research/project-vend-1.md) - Frontier Red Team Policy | Jun 27, 2025
+- [Agentic Misalignment: How LLMs could be insider threats](research/agentic-misalignment.md) - Alignment | Jun 20, 2025
+- [Confidential Inference via Trusted Virtual Machines](research/confidential-inference-trusted-vms.md) - Announcements | Jun 18, 2025
+- [SHADE-Arena: Evaluating sabotage and monitoring in LLM agents](research/shade-arena-sabotage-monitoring.md) - Alignment | Jun 16, 2025
+- [Open-sourcing circuit tracing tools](research/open-source-circuit-tracing.md) - Interpretability | May 29, 2025
+- [Anthropic Economic Index: AI’s impact on software development](research/impact-software-development.md) - Societal Impacts Economic Research | Apr 28, 2025
+- [Exploring model welfare](research/exploring-model-welfare.md) - Alignment | Apr 24, 2025
+- [Values in the wild: Discovering and analyzing values in real-world language model interactions](research/values-wild.md) - Societal Impacts | Apr 21, 2025
+- [Reasoning models don't always say what they think](research/reasoning-models-dont-say-think.md) - Alignment | Apr 3, 2025
+- [Tracing the thoughts of a large language model](research/tracing-thoughts-language-model.md) - Interpretability | Mar 27, 2025
+- [Auditing language models for hidden objectives](research/auditing-hidden-objectives.md) - Alignment Interpretability | Mar 13, 2025
+- [Forecasting rare language model behaviors](research/forecasting-rare-behaviors.md) - Alignment | Feb 25, 2025
+- [Claude’s extended thinking](research/visible-extended-thinking.md) - Announcements | Feb 24, 2025
+- [Insights on Crosscoder Model Diffing](research/crosscoder-model-diffing.md) - Interpretability | Feb 20, 2025
+- [Constitutional Classifiers: Defending against universal jailbreaks](research/constitutional-classifiers.md) - Alignment | Feb 3, 2025
+- [Alignment faking in large language models](research/alignment-faking.md) - Alignment | Dec 18, 2024
+- [Clio: A system for privacy-preserving insights into real-world AI use](research/clio.md) - Societal Impacts | Dec 12, 2024
+- [A statistical approach to model evaluations](research/statistical-approach-to-model-evals.md) - Evaluations | Nov 19, 2024
+- [Evaluating feature steering: A case study in mitigating social biases](research/evaluating-feature-steering.md) - Societal Impacts Interpretability | Oct 25, 2024
+- [Sabotage evaluations for frontier models](research/sabotage-evaluations.md) - Alignment | Oct 18, 2024
+- [Using dictionary learning features as classifiers](research/features-as-classifiers.md) - Interpretability | Oct 16, 2024
+- [Circuits Updates – September 2024](research/circuits-updates-sept-2024.md) - Interpretability | Oct 1, 2024
+- [Circuits Updates – August 2024](research/circuits-updates-august-2024.md) - Interpretability | Sep 6, 2024
+- [Circuits Updates – July 2024](research/circuits-updates-july-2024.md) - Interpretability | Jul 31, 2024
+- [Circuits Updates – June 2024](research/circuits-updates-june-2024.md) - Interpretability | Jun 28, 2024
+- [Sycophancy to subterfuge: Investigating reward tampering in language models](research/reward-tampering.md) - Alignment | Jun 17, 2024
+- [The engineering challenges of scaling interpretability](research/engineering-challenges-interpretability.md) - Interpretability | Jun 13, 2024
+- [Claude’s Character](research/claude-character.md) - Alignment | Jun 8, 2024
+- [Mapping the Mind of a Large Language Model](research/mapping-mind-language-model.md) - Interpretability | May 21, 2024
+- [Circuits Updates – April 2024](research/circuits-updates-april-2024.md) - Interpretability Research | Apr 26, 2024
+- [Simple probes can catch sleeper agents](research/probes-catch-sleeper-agents.md) - Alignment Interpretability | Apr 23, 2024
+- [Measuring the Persuasiveness of Language Models](research/measuring-model-persuasiveness.md) - Societal Impacts | Apr 9, 2024
+- [Many-shot jailbreaking](research/many-shot-jailbreaking.md) - Alignment | Apr 2, 2024
+- [Reflections on Qualitative Research](research/transformer-circuits.md) - Interpretability Research | Mar 8, 2024
+- [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training.md) - Alignment Research | Jan 14, 2024
+- [Evaluating and Mitigating Discrimination in Language Model Decisions](research/evaluating-and-mitigating-discrimination-in-language-model-decisions.md) - Societal Impacts | Dec 7, 2023
+- [Specific versus General Principles for Constitutional AI](research/specific-versus-general-principles-for-constitutional-ai.md) - Alignment Research | Oct 24, 2023
+- [Towards Understanding Sycophancy in Language Models](research/towards-understanding-sycophancy-in-language-models.md) - Alignment Research | Oct 23, 2023
+- [Collective Constitutional AI: Aligning a Language Model with Public Input](research/collective-constitutional-ai-aligning-a-language-model-with-public-input.md) - Policy Societal Impacts | Oct 17, 2023
+- [Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning.md) - Interpretability Research | Oct 5, 2023
+- [Decomposing Language Models Into Understandable Components](research/decomposing-language-models-into-understandable-components.md) - Interpretability Research | Oct 5, 2023
+- [Challenges in evaluating AI systems](research/evaluating-ai-systems.md) - Policy | Oct 4, 2023
+- [Tracing Model Outputs to the Training Data](research/influence-functions.md) - Alignment Research | Aug 8, 2023
+- [Studying Large Language Model Generalization with Influence Functions](research/studying-large-language-model-generalization-with-influence-functions.md) - Alignment Research | Aug 8, 2023
+- [Question Decomposition Improves the Faithfulness of Model-Generated Reasoning](research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning.md) - Alignment Research | Jul 18, 2023
+- [Measuring Faithfulness in Chain-of-Thought Reasoning](research/measuring-faithfulness-in-chain-of-thought-reasoning.md) - Alignment Research | Jul 18, 2023
+- [Towards Measuring the Representation of Subjective Global Opinions in Language Models](research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models.md) - Societal Impacts | Jun 29, 2023
+- [Interpretability Dreams](research/interpretability-dreams.md) - Interpretability Research | May 24, 2023
+- [Circuits Updates — May 2023](research/circuits-updates-may-2023.md) - Interpretability Research | May 24, 2023
+- [Distributed Representations: Composition & Superposition](research/distributed-representations-composition-superposition.md) - Interpretability Research | May 4, 2023
+- [Privileged Bases in the Transformer Residual Stream](research/privileged-bases-in-the-transformer-residual-stream.md) - Interpretability Research | Mar 16, 2023
+- [The Capacity for Moral Self-Correction in Large Language Models](research/the-capacity-for-moral-self-correction-in-large-language-models.md) - Societal Impacts | Feb 15, 2023
+- [Superposition, Memorization, and Double Descent](research/superposition-memorization-and-double-descent.md) - Interpretability Research | Jan 5, 2023
+- [Discovering Language Model Behaviors with Model-Written Evaluations](research/discovering-language-model-behaviors-with-model-written-evaluations.md) - Alignment Research | Dec 19, 2022
+- [Constitutional AI: Harmlessness from AI Feedback](research/constitutional-ai-harmlessness-from-ai-feedback.md) - Alignment Research | Dec 15, 2022
+- [Measuring Progress on Scalable Oversight for Large Language Models](research/measuring-progress-on-scalable-oversight-for-large-language-models.md) - Alignment Research | Nov 4, 2022
+- [Toy Models of Superposition](research/toy-models-of-superposition.md) - Interpretability Research | Sep 14, 2022
+- [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned.md) - Societal Impacts | Aug 22, 2022
+- [Language Models (Mostly) Know What They Know](research/language-models-mostly-know-what-they-know.md) - Alignment Research | Jul 11, 2022
+- [Softmax Linear Units](research/softmax-linear-units.md) - Interpretability Research | Jun 17, 2022
+- [Scaling Laws and Interpretability of Learning from Repeated Data](research/scaling-laws-and-interpretability-of-learning-from-repeated-data.md) - Interpretability Research | May 21, 2022
+- [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback.md) - Alignment Research | Apr 12, 2022
+- [In-context Learning and Induction Heads](research/in-context-learning-and-induction-heads.md) - Interpretability Research | Mar 8, 2022
+- [Predictability and Surprise in Large Generative Models](research/predictability-and-surprise-in-large-generative-models.md) - Societal Impacts | Feb 15, 2022
+- [A Mathematical Framework for Transformer Circuits](research/a-mathematical-framework-for-transformer-circuits.md) - Interpretability Research | Dec 22, 2021
+- [A General Language Assistant as a Laboratory for Alignment](research/a-general-language-assistant-as-a-laboratory-for-alignment.md) - Alignment Research | Dec 1, 2021
+- [Claude SWE-Bench Performance](research/swe-bench-sonnet.md)
+- [Building Effective AI Agents](research/building-effective-agents.md)

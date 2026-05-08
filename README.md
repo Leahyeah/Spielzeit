@@ -28,3 +28,13 @@ To transcribe audio into episode Markdown for fuller text history, configure a t
 ```bash
 python3 scripts/transcribe_podcasts.py --since 2025-01-01 --limit 3
 ```
+
+For Aliyun Tingwu transcription, install the optional SDK and provide credentials through local environment variables:
+
+```bash
+python3 -m pip install -r requirements-transcription.txt
+export ALIBABA_CLOUD_ACCESS_KEY_ID=...
+export ALIBABA_CLOUD_ACCESS_KEY_SECRET=...
+export ALIYUN_TINGWU_APP_KEY=...
+python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --since 2025-01-01 --limit 3
+```

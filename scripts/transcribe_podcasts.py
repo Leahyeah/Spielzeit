@@ -14,6 +14,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.request
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -24,6 +25,7 @@ CACHE = Path(".cache/podcast-audio")
 TRANSCRIPT_MARKER = "## Transcript"
 OPENAI_TRANSCRIPT_URL = "https://api.openai.com/v1/audio/transcriptions"
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini-transcribe"
+DEFAULT_ALIYUN_REGION = "cn-beijing"
 
 
 @dataclass
@@ -146,6 +148,163 @@ def transcribe_with_command(audio: Path, template: str) -> str:
     return result.stdout.strip()
 
 
+def aliyun_client():
+    access_key_id = os.environ.get("ALIBABA_CLOUD_ACCESS_KEY_ID")
+    access_key_secret = os.environ.get("ALIBABA_CLOUD_ACCESS_KEY_SECRET")
+    if not access_key_id or not access_key_secret:
+        raise RuntimeError("ALIBABA_CLOUD_ACCESS_KEY_ID and ALIBABA_CLOUD_ACCESS_KEY_SECRET are required")
+    try:
+        from alibabacloud_tea_openapi import models as open_api_models
+        from alibabacloud_tingwu20230930.client import Client as TingwuClient
+    except ImportError as exc:
+        raise RuntimeError(
+            "Aliyun Tingwu SDK is not installed. Run: python3 -m pip install -r requirements-transcription.txt"
+        ) from exc
+
+    config = open_api_models.Config(
+        access_key_id=access_key_id,
+        access_key_secret=access_key_secret,
+        region_id=os.environ.get("ALIBABA_CLOUD_REGION_ID", DEFAULT_ALIYUN_REGION),
+    )
+    endpoint = os.environ.get("ALIYUN_TINGWU_ENDPOINT")
+    if endpoint:
+        config.endpoint = endpoint
+    return TingwuClient(config)
+
+
+def response_body_to_map(response) -> dict:
+    body = getattr(response, "body", response)
+    if hasattr(body, "to_map"):
+        return body.to_map()
+    if isinstance(body, dict):
+        return body
+    raise RuntimeError(f"Unsupported Aliyun response type: {type(response)!r}")
+
+
+def normalize_aliyun_code(value) -> str:
+    return "" if value is None else str(value)
+
+
+def start_aliyun_task(client, episode: EpisodeFile, source_language: str, app_key: str | None) -> str:
+    from alibabacloud_tingwu20230930 import models as tingwu_models
+
+    request = tingwu_models.CreateTaskRequest(
+        type="offline",
+        app_key=app_key or None,
+        input=tingwu_models.CreateTaskRequestInput(
+            source_language=source_language,
+            file_url=episode.audio_url,
+            task_key=safe_name(episode),
+        ),
+        parameters=tingwu_models.CreateTaskRequestParameters(
+            transcription=tingwu_models.CreateTaskRequestParametersTranscription(
+                diarization_enabled=True,
+                output_level=2,
+            ),
+            auto_chapters_enabled=False,
+            meeting_assistance_enabled=False,
+            summarization_enabled=False,
+            text_polish_enabled=False,
+        ),
+    )
+    payload = response_body_to_map(client.create_task(request))
+    if normalize_aliyun_code(payload.get("Code")) not in {"0", ""}:
+        raise RuntimeError(f"Aliyun CreateTask failed: {payload}")
+    task_id = (payload.get("Data") or {}).get("TaskId")
+    if not task_id:
+        raise RuntimeError(f"Aliyun CreateTask response missing TaskId: {payload}")
+    return task_id
+
+
+def wait_aliyun_task(client, task_id: str, poll_seconds: int, timeout_minutes: int) -> dict:
+    deadline = time.time() + timeout_minutes * 60
+    while True:
+        payload = response_body_to_map(client.get_task_info(task_id))
+        if normalize_aliyun_code(payload.get("Code")) not in {"0", ""}:
+            raise RuntimeError(f"Aliyun GetTaskInfo failed: {payload}")
+        data = payload.get("Data") or {}
+        status = data.get("TaskStatus")
+        if status == "COMPLETED":
+            return data
+        if status in {"FAILED", "INVALID"}:
+            raise RuntimeError(f"Aliyun task {task_id} ended with {status}: {data}")
+        if time.time() >= deadline:
+            raise RuntimeError(f"Aliyun task {task_id} timed out after {timeout_minutes} minutes")
+        print(f"  Aliyun task {task_id} status={status}; polling again in {poll_seconds}s", flush=True)
+        time.sleep(poll_seconds)
+
+
+def fetch_json_url(url: str) -> dict:
+    req = urllib.request.Request(url, headers={"User-Agent": "Spielzeit transcript fetcher"})
+    with urllib.request.urlopen(req, timeout=120) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def transcript_from_aliyun_json(payload: dict) -> str:
+    transcription = payload.get("Transcription") or payload.get("transcription") or payload
+    paragraphs = transcription.get("Paragraphs") or transcription.get("paragraphs") or []
+    lines: list[str] = []
+    for paragraph in paragraphs:
+        words = paragraph.get("Words") or paragraph.get("words") or []
+        if not words:
+            continue
+        speaker = paragraph.get("SpeakerId") or paragraph.get("speakerId") or paragraph.get("Speaker")
+        sentence_parts: list[str] = []
+        current_sentence = object()
+        for word in words:
+            sentence_id = word.get("SentenceId") or word.get("sentenceId")
+            if sentence_id != current_sentence and sentence_parts:
+                prefix = f"Speaker {speaker}: " if speaker else ""
+                lines.append(prefix + "".join(sentence_parts).strip())
+                sentence_parts = []
+            current_sentence = sentence_id
+            sentence_parts.append(str(word.get("Text") or word.get("text") or ""))
+        if sentence_parts:
+            prefix = f"Speaker {speaker}: " if speaker else ""
+            lines.append(prefix + "".join(sentence_parts).strip())
+    text = "\n".join(line for line in lines if line)
+    if text:
+        return text
+    return collect_text_fields(transcription).strip()
+
+
+def collect_text_fields(value) -> str:
+    if isinstance(value, dict):
+        parts = []
+        for key, child in value.items():
+            if key.lower() in {"text", "content", "sentence"} and isinstance(child, str):
+                parts.append(child)
+            else:
+                nested = collect_text_fields(child)
+                if nested:
+                    parts.append(nested)
+        return "\n".join(parts)
+    if isinstance(value, list):
+        return "\n".join(part for item in value if (part := collect_text_fields(item)))
+    return ""
+
+
+def transcribe_with_aliyun_tingwu(
+    episode: EpisodeFile,
+    source_language: str,
+    poll_seconds: int,
+    timeout_minutes: int,
+) -> str:
+    client = aliyun_client()
+    task_id = start_aliyun_task(client, episode, source_language, os.environ.get("ALIYUN_TINGWU_APP_KEY"))
+    print(f"  Aliyun task id: {task_id}", flush=True)
+    data = wait_aliyun_task(client, task_id, poll_seconds, timeout_minutes)
+    result = data.get("Result") or {}
+    transcription_url = result.get("Transcription")
+    if not transcription_url:
+        raise RuntimeError(f"Aliyun task {task_id} completed but has no transcription URL: {data}")
+    transcript_payload = fetch_json_url(transcription_url)
+    transcript = transcript_from_aliyun_json(transcript_payload)
+    if not transcript:
+        raise RuntimeError(f"Aliyun transcription URL returned no recognizable text for task {task_id}")
+    return transcript
+
+
 def insert_transcript(path: Path, transcript: str, engine: str) -> None:
     text = path.read_text(encoding="utf-8")
     if TRANSCRIPT_MARKER in text:
@@ -161,10 +320,13 @@ def main() -> int:
     parser.add_argument("--show", help="Only transcribe one show slug.")
     parser.add_argument("--category", help="Only transcribe one category.")
     parser.add_argument("--include-existing", action="store_true", help="Reprocess files even if they already contain a transcript.")
-    parser.add_argument("--engine", choices=["openai", "command"], default="openai")
+    parser.add_argument("--engine", choices=["openai", "command", "aliyun-tingwu"], default="openai")
     parser.add_argument("--openai-model", default=DEFAULT_OPENAI_MODEL)
     parser.add_argument("--language", default="zh")
     parser.add_argument("--command", help="Command template for --engine command; must print transcript to stdout and use {audio}.")
+    parser.add_argument("--aliyun-source-language", default="fspk", help="Aliyun Tingwu SourceLanguage: cn, en, fspk, ja, or yue.")
+    parser.add_argument("--aliyun-poll-seconds", type=int, default=30)
+    parser.add_argument("--aliyun-timeout-minutes", type=int, default=180)
     args = parser.parse_args()
 
     since = datetime.fromisoformat(args.since).replace(tzinfo=timezone.utc) if args.since else None
@@ -186,13 +348,22 @@ def main() -> int:
 
     for index, episode in enumerate(episodes, 1):
         print(f"[{index}/{len(episodes)}] {episode.category}/{episode.show}: {episode.title}", flush=True)
-        audio = download_audio(episode)
         if args.engine == "openai":
+            audio = download_audio(episode)
             transcript = transcribe_with_openai(audio, args.openai_model, args.language)
             engine = f"OpenAI {args.openai_model}"
-        else:
+        elif args.engine == "command":
+            audio = download_audio(episode)
             transcript = transcribe_with_command(audio, args.command or "")
             engine = args.command or "command"
+        else:
+            transcript = transcribe_with_aliyun_tingwu(
+                episode,
+                args.aliyun_source_language,
+                args.aliyun_poll_seconds,
+                args.aliyun_timeout_minutes,
+            )
+            engine = f"Aliyun Tingwu ({args.aliyun_source_language})"
         insert_transcript(episode.path, transcript, engine)
         print(f"  wrote transcript to {episode.path}")
     return 0

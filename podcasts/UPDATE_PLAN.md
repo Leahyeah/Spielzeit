@@ -75,9 +75,22 @@ Default engine is OpenAI transcription API and requires `OPENAI_API_KEY` in the 
 python3 scripts/transcribe_podcasts.py --engine command --command "your-transcriber {audio}" --since 2025-01-01
 ```
 
+Aliyun Tingwu is also supported. It creates an offline Tingwu task from each episode's public audio URL, polls task status, fetches the returned `Transcription` JSON, and writes the assembled transcript text into the episode Markdown.
+
+```bash
+python3 -m pip install -r requirements-transcription.txt
+export ALIBABA_CLOUD_ACCESS_KEY_ID=...
+export ALIBABA_CLOUD_ACCESS_KEY_SECRET=...
+export ALIYUN_TINGWU_APP_KEY=...
+python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --since 2025-01-01 --limit 3
+```
+
+Use `--aliyun-source-language fspk` for mixed Chinese/English podcasts, or `cn`, `en`, `ja`, `yue` for single-language shows. Do not paste AccessKey values into Slock.
+
 Recommended tool setup:
 
 - `ffmpeg` for audio conversion/chunking and local transcription tools.
 - One transcription engine:
   - OpenAI audio transcription API with `OPENAI_API_KEY`, or
+  - Aliyun Tingwu OpenAPI with local `ALIBABA_CLOUD_ACCESS_KEY_ID`, `ALIBABA_CLOUD_ACCESS_KEY_SECRET`, and `ALIYUN_TINGWU_APP_KEY`, or
   - local `whisper.cpp` / `faster-whisper` / `mlx-whisper` that can print text from an audio path.

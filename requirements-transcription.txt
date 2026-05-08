@@ -1,1 +1,2 @@
 alibabacloud_tingwu20230930==2.0.25
+oss2==2.19.1

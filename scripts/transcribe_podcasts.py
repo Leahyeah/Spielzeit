@@ -11,6 +11,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -27,6 +28,7 @@ OPENAI_TRANSCRIPT_URL = "https://api.openai.com/v1/audio/transcriptions"
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini-transcribe"
 DEFAULT_ALIYUN_REGION = "cn-beijing"
 DEFAULT_ALIYUN_ENDPOINT = "tingwu.cn-beijing.aliyuncs.com"
+DEFAULT_ALIYUN_OSS_ENDPOINT = "oss-cn-beijing.aliyuncs.com"
 
 
 def load_dotenv(path: Path = Path(".env")) -> None:
@@ -204,7 +206,14 @@ def normalize_aliyun_code(value) -> str:
     return "" if value is None else str(value)
 
 
-def start_aliyun_task(client, episode: EpisodeFile, source_language: str, app_key: str | None) -> str:
+def start_aliyun_task(
+    client,
+    episode: EpisodeFile,
+    source_language: str,
+    app_key: str | None,
+    file_url: str | None = None,
+    task_key: str | None = None,
+) -> str:
     from alibabacloud_tingwu20230930 import models as tingwu_models
 
     request = tingwu_models.CreateTaskRequest(
@@ -212,8 +221,8 @@ def start_aliyun_task(client, episode: EpisodeFile, source_language: str, app_ke
         app_key=app_key or None,
         input=tingwu_models.CreateTaskRequestInput(
             source_language=source_language,
-            file_url=episode.audio_url,
-            task_key=safe_name(episode),
+            file_url=file_url or episode.audio_url,
+            task_key=task_key or safe_name(episode),
         ),
         parameters=tingwu_models.CreateTaskRequestParameters(
             transcription=tingwu_models.CreateTaskRequestParametersTranscription(
@@ -334,6 +343,123 @@ def transcribe_with_aliyun_tingwu(
     return transcript
 
 
+def split_audio_for_aliyun(audio: Path, episode: EpisodeFile, chunk_minutes: int) -> list[Path]:
+    ffmpeg = shutil.which("ffmpeg")
+    if not ffmpeg:
+        raise RuntimeError("ffmpeg is required for --aliyun-split-minutes but was not found in PATH")
+    chunk_dir = CACHE / "chunks" / safe_name(episode)
+    if chunk_dir.exists():
+        for old in chunk_dir.glob("*"):
+            old.unlink()
+    chunk_dir.mkdir(parents=True, exist_ok=True)
+    suffix = audio.suffix if audio.suffix else ".m4a"
+    output_pattern = chunk_dir / f"chunk-%03d{suffix}"
+    command = [
+        ffmpeg,
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-i",
+        str(audio),
+        "-f",
+        "segment",
+        "-segment_time",
+        str(chunk_minutes * 60),
+        "-reset_timestamps",
+        "1",
+        "-c",
+        "copy",
+        str(output_pattern),
+    ]
+    subprocess.run(command, check=True)
+    chunks = sorted(chunk_dir.glob(f"chunk-*{suffix}"))
+    if not chunks:
+        raise RuntimeError("ffmpeg completed but produced no audio chunks")
+    return chunks
+
+
+def aliyun_oss_bucket():
+    access_key_id = os.environ.get("ALIBABA_CLOUD_ACCESS_KEY_ID")
+    access_key_secret = os.environ.get("ALIBABA_CLOUD_ACCESS_KEY_SECRET")
+    bucket_name = os.environ.get("ALIYUN_OSS_BUCKET")
+    if not access_key_id or not access_key_secret or not bucket_name:
+        raise RuntimeError(
+            "ALIYUN_OSS_BUCKET plus ALIBABA_CLOUD_ACCESS_KEY_ID/SECRET are required for chunked Aliyun transcription"
+        )
+    try:
+        import oss2
+    except ImportError as exc:
+        raise RuntimeError("oss2 is not installed. Run: python3 -m pip install -r requirements-transcription.txt") from exc
+    endpoint = os.environ.get("ALIYUN_OSS_ENDPOINT", DEFAULT_ALIYUN_OSS_ENDPOINT)
+    auth = oss2.Auth(access_key_id, access_key_secret)
+    return oss2.Bucket(auth, endpoint, bucket_name)
+
+
+def upload_chunks_to_oss(chunks: list[Path], episode: EpisodeFile) -> list[tuple[str, str]]:
+    bucket = aliyun_oss_bucket()
+    prefix = os.environ.get("ALIYUN_OSS_PREFIX", "podcast-transcription-temp").strip("/")
+    expires = int(os.environ.get("ALIYUN_OSS_SIGNED_URL_EXPIRES", "86400"))
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    uploaded: list[tuple[str, str]] = []
+    for index, chunk in enumerate(chunks, 1):
+        key = f"{prefix}/{safe_name(episode)}/{stamp}/chunk-{index:03d}{chunk.suffix}"
+        bucket.put_object_from_file(key, str(chunk))
+        signed_url = bucket.sign_url("GET", key, expires, slash_safe=True)
+        uploaded.append((key, signed_url))
+    return uploaded
+
+
+def delete_oss_objects(keys: list[str]) -> None:
+    if not keys:
+        return
+    try:
+        bucket = aliyun_oss_bucket()
+        for key in keys:
+            bucket.delete_object(key)
+    except Exception as exc:
+        print(f"  warning: failed to delete temporary OSS chunks: {exc}", file=sys.stderr, flush=True)
+
+
+def transcribe_with_aliyun_tingwu_chunks(
+    episode: EpisodeFile,
+    source_language: str,
+    poll_seconds: int,
+    timeout_minutes: int,
+    chunk_minutes: int,
+) -> str:
+    audio = download_audio(episode)
+    chunks = split_audio_for_aliyun(audio, episode, chunk_minutes)
+    print(f"  split into {len(chunks)} chunks", flush=True)
+    uploaded = upload_chunks_to_oss(chunks, episode)
+    uploaded_keys = [key for key, _ in uploaded]
+    client = aliyun_client()
+    transcripts: list[str] = []
+    try:
+        for index, (_, signed_url) in enumerate(uploaded, 1):
+            task_key = f"{safe_name(episode)}-chunk-{index:03d}"
+            task_id = start_aliyun_task(
+                client,
+                episode,
+                source_language,
+                os.environ.get("ALIYUN_TINGWU_APP_KEY"),
+                file_url=signed_url,
+                task_key=task_key,
+            )
+            print(f"  Aliyun chunk {index}/{len(uploaded)} task id: {task_id}", flush=True)
+            data = wait_aliyun_task(client, task_id, poll_seconds, timeout_minutes)
+            result = data.get("Result") or {}
+            transcription_url = result.get("Transcription")
+            if not transcription_url:
+                raise RuntimeError(f"Aliyun chunk task {task_id} completed but has no transcription URL: {data}")
+            transcript = transcript_from_aliyun_json(fetch_json_url(transcription_url))
+            if not transcript:
+                raise RuntimeError(f"Aliyun chunk task {task_id} returned no recognizable text")
+            transcripts.append(f"[Part {index}/{len(uploaded)}]\n{transcript}")
+    finally:
+        delete_oss_objects(uploaded_keys)
+    return "\n\n".join(transcripts)
+
+
 def insert_transcript(path: Path, transcript: str, engine: str) -> None:
     text = path.read_text(encoding="utf-8")
     if TRANSCRIPT_MARKER in text:
@@ -358,6 +484,7 @@ def main() -> int:
     parser.add_argument("--aliyun-source-language", default="fspk", help="Aliyun Tingwu SourceLanguage: cn, en, fspk, ja, or yue.")
     parser.add_argument("--aliyun-poll-seconds", type=int, default=30)
     parser.add_argument("--aliyun-timeout-minutes", type=int, default=180)
+    parser.add_argument("--aliyun-split-minutes", type=int, default=0, help="Split long audio into N-minute chunks, upload chunks to OSS, then stitch transcripts.")
     parser.add_argument("--continue-on-error", action="store_true", help="Log failed episodes and keep processing the batch.")
     args = parser.parse_args()
 
@@ -391,13 +518,23 @@ def main() -> int:
                 transcript = transcribe_with_command(audio, args.command or "")
                 engine = args.command or "command"
             else:
-                transcript = transcribe_with_aliyun_tingwu(
-                    episode,
-                    args.aliyun_source_language,
-                    args.aliyun_poll_seconds,
-                    args.aliyun_timeout_minutes,
-                )
-                engine = f"Aliyun Tingwu ({args.aliyun_source_language})"
+                if args.aliyun_split_minutes > 0:
+                    transcript = transcribe_with_aliyun_tingwu_chunks(
+                        episode,
+                        args.aliyun_source_language,
+                        args.aliyun_poll_seconds,
+                        args.aliyun_timeout_minutes,
+                        args.aliyun_split_minutes,
+                    )
+                    engine = f"Aliyun Tingwu chunked {args.aliyun_split_minutes}m ({args.aliyun_source_language})"
+                else:
+                    transcript = transcribe_with_aliyun_tingwu(
+                        episode,
+                        args.aliyun_source_language,
+                        args.aliyun_poll_seconds,
+                        args.aliyun_timeout_minutes,
+                    )
+                    engine = f"Aliyun Tingwu ({args.aliyun_source_language})"
             insert_transcript(episode.path, transcript, engine)
             print(f"  wrote transcript to {episode.path}")
         except Exception as exc:

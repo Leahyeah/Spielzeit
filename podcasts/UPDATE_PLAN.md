@@ -91,7 +91,19 @@ Batch rule:
 
 - Historical cap: attempted AI recent 20 + Web3 recent 20 in May 2026; do not bulk-backfill the rest.
 - Ongoing: transcribe new AI/Web3 priority episodes when they fit the service limit.
-- If a priority episode fails with `PRE.AudioDurationQuotaLimit`, keep RSS text/description and mention the skip in the weekly update.
+- If a priority episode fails with `PRE.AudioDurationQuotaLimit`, keep RSS text/description and mention the skip in the weekly update, or use chunked mode for selected important episodes.
+
+Chunked mode for long episodes:
+
+```bash
+python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --aliyun-split-minutes 45 --category AI --limit 1
+```
+
+Requirements:
+
+- `ffmpeg` available in `PATH`.
+- OSS settings in local `.env`: `ALIYUN_OSS_BUCKET`, `ALIYUN_OSS_ENDPOINT`, `ALIYUN_OSS_PREFIX`, `ALIYUN_OSS_SIGNED_URL_EXPIRES`.
+- The script uploads temporary chunks, uses signed URLs as Tingwu `FileUrl` inputs, stitches `[Part N/M]` transcripts, and deletes temporary OSS objects.
 
 Recommended tool setup:
 

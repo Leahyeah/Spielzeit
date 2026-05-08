@@ -46,3 +46,11 @@ Run a small test:
 ```bash
 python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --since 2025-01-01 --limit 3
 ```
+
+For long episodes that exceed Tingwu's duration quota, install `ffmpeg`, configure OSS fields in `.env`, then run chunked transcription:
+
+```bash
+python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --aliyun-split-minutes 45 --since 2025-01-01 --limit 1
+```
+
+Chunked mode downloads audio locally, splits it with `ffmpeg`, uploads temporary chunks to OSS, submits each signed URL to Tingwu, stitches the transcripts, then deletes the temporary OSS objects.

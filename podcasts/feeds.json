@@ -1,0 +1,103 @@
+{
+  "categories": ["AI", "Web3", "创业", "市场投资"],
+  "feeds": [
+    {
+      "url": "https://sv101.fireside.fm/",
+      "slug": "sv101",
+      "category": "AI",
+      "tags": ["科技", "创业", "市场投资"],
+      "notes": "硅谷101，综合科技/商业节目；周报默认归入 AI，涉及市场/创业时用 tags 标注。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/68fyjknth9hj",
+      "slug": "crossing",
+      "category": "AI",
+      "tags": ["创业"],
+      "notes": "十字路口Crossing，AI 时代行动者访谈。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/ym6ug8jctfp8",
+      "slug": "overseas-unicorn",
+      "category": "AI",
+      "tags": ["创业", "市场投资"],
+      "notes": "海外独角兽/拾象 AGI 备忘录，AI 公司与技术投资研究。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/evgg6xle9rdc",
+      "slug": "42",
+      "category": "创业",
+      "tags": ["AI", "市场投资"],
+      "notes": "42章经，创业与投资访谈，近期大量 AI 创业内容。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/hnetc83hllku",
+      "slug": "silicon-stance",
+      "category": "AI",
+      "tags": ["创业"],
+      "notes": "硅基立场，AI 和数字创新前沿观点。"
+    },
+    {
+      "url": "https://www.ximalaya.com/album/48835864.xml",
+      "slug": "orange-book",
+      "category": "Web3",
+      "tags": ["AI", "创业"],
+      "notes": "橙皮书，AI/Web3/加密与产品访谈。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/ahng8d9qlywl",
+      "slug": "qizhulu",
+      "category": "市场投资",
+      "tags": ["宏观", "资产配置"],
+      "notes": "起朱楼宴宾客，投资理财、金融市场与时代记录。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/4d3ddly4d4vc",
+      "slug": "surge-long",
+      "category": "Web3",
+      "tags": ["AI", "市场投资"],
+      "notes": "第三浪 SurgeLong，AI 与 Crypto 叙事信号。"
+    },
+    {
+      "url": "https://feeds.fireside.fm/web3101/rss",
+      "slug": "web3-101",
+      "category": "Web3",
+      "tags": ["AI", "创业"],
+      "notes": "Web3 101，区块链技术、商业与人文。"
+    },
+    {
+      "url": "https://www.ximalaya.com/album/20119986.xml",
+      "slug": "startup-insider",
+      "category": "创业",
+      "tags": ["AI", "科技"],
+      "notes": "创业内幕 Startup Insider，GGV/纪源资本创业访谈。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/baitalks",
+      "slug": "bai-talks",
+      "category": "创业",
+      "tags": ["AI", "Web3"],
+      "notes": "创业BAI家谈，BAI 资本创业访谈，更新较慢。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/jhfuba3dahq8",
+      "slug": "high-energy",
+      "category": "市场投资",
+      "tags": ["创业", "AI", "宏观"],
+      "notes": "高能量，商业观察、宏观、产业与消费公司。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/vnft9yjykgpx",
+      "slug": "cross-sea-radio",
+      "category": "创业",
+      "tags": ["出海", "市场"],
+      "notes": "跨海电波，亚马逊广告出品的出海商业观察。"
+    },
+    {
+      "url": "https://feed.xyzfm.space/ukgvfq899txk",
+      "slug": "wanderers",
+      "category": "市场投资",
+      "tags": ["AI", "Web3", "宏观", "创业"],
+      "notes": "The Wanderers 流浪者，投资、创业、科技和宏观讨论。"
+    }
+  ]
+}

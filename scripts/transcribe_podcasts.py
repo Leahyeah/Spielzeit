@@ -460,6 +460,39 @@ def transcribe_with_aliyun_tingwu_chunks(
     return "\n\n".join(transcripts)
 
 
+def transcribe_with_aliyun_tingwu_oss_url(
+    episode: EpisodeFile,
+    source_language: str,
+    poll_seconds: int,
+    timeout_minutes: int,
+) -> str:
+    audio = download_audio(episode)
+    uploaded = upload_chunks_to_oss([audio], episode)
+    uploaded_key, signed_url = uploaded[0]
+    client = aliyun_client()
+    try:
+        task_id = start_aliyun_task(
+            client,
+            episode,
+            source_language,
+            os.environ.get("ALIYUN_TINGWU_APP_KEY"),
+            file_url=signed_url,
+            task_key=f"{safe_name(episode)}-oss",
+        )
+        print(f"  Aliyun OSS task id: {task_id}", flush=True)
+        data = wait_aliyun_task(client, task_id, poll_seconds, timeout_minutes)
+        result = data.get("Result") or {}
+        transcription_url = result.get("Transcription")
+        if not transcription_url:
+            raise RuntimeError(f"Aliyun OSS task {task_id} completed but has no transcription URL: {data}")
+        transcript = transcript_from_aliyun_json(fetch_json_url(transcription_url))
+        if not transcript:
+            raise RuntimeError(f"Aliyun OSS task {task_id} returned no recognizable text")
+        return transcript
+    finally:
+        delete_oss_objects([uploaded_key])
+
+
 def insert_transcript(path: Path, transcript: str, engine: str) -> None:
     text = path.read_text(encoding="utf-8")
     if TRANSCRIPT_MARKER in text:
@@ -484,6 +517,7 @@ def main() -> int:
     parser.add_argument("--aliyun-source-language", default="fspk", help="Aliyun Tingwu SourceLanguage: cn, en, fspk, ja, or yue.")
     parser.add_argument("--aliyun-poll-seconds", type=int, default=30)
     parser.add_argument("--aliyun-timeout-minutes", type=int, default=180)
+    parser.add_argument("--aliyun-use-oss-url", action="store_true", help="Download audio, upload one temporary OSS object, and pass the signed URL to Tingwu.")
     parser.add_argument("--aliyun-split-minutes", type=int, default=0, help="Split long audio into N-minute chunks, upload chunks to OSS, then stitch transcripts.")
     parser.add_argument("--continue-on-error", action="store_true", help="Log failed episodes and keep processing the batch.")
     args = parser.parse_args()
@@ -527,6 +561,14 @@ def main() -> int:
                         args.aliyun_split_minutes,
                     )
                     engine = f"Aliyun Tingwu chunked {args.aliyun_split_minutes}m ({args.aliyun_source_language})"
+                elif args.aliyun_use_oss_url:
+                    transcript = transcribe_with_aliyun_tingwu_oss_url(
+                        episode,
+                        args.aliyun_source_language,
+                        args.aliyun_poll_seconds,
+                        args.aliyun_timeout_minutes,
+                    )
+                    engine = f"Aliyun Tingwu OSS URL ({args.aliyun_source_language})"
                 else:
                     transcript = transcribe_with_aliyun_tingwu(
                         episode,

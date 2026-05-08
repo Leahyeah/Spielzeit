@@ -54,3 +54,9 @@ python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --aliyun-split-min
 ```
 
 Chunked mode downloads audio locally, splits it with `ffmpeg`, uploads temporary chunks to OSS, submits each signed URL to Tingwu, stitches the transcripts, then deletes the temporary OSS objects.
+
+For feeds whose original audio URL is not readable by Tingwu, use OSS as a temporary URL bridge without splitting:
+
+```bash
+python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --aliyun-use-oss-url --show sv101 --limit 1
+```

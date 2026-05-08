@@ -105,6 +105,12 @@ Requirements:
 - OSS settings in local `.env`: `ALIYUN_OSS_BUCKET`, `ALIYUN_OSS_ENDPOINT`, `ALIYUN_OSS_PREFIX`, `ALIYUN_OSS_SIGNED_URL_EXPIRES`.
 - The script uploads temporary chunks, uses signed URLs as Tingwu `FileUrl` inputs, stitches `[Part N/M]` transcripts, and deletes temporary OSS objects.
 
+For feeds whose original audio URL is not readable by Tingwu, use OSS as a temporary URL bridge without splitting:
+
+```bash
+python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --aliyun-use-oss-url --show sv101 --limit 1
+```
+
 Recommended tool setup:
 
 - `ffmpeg` for audio conversion/chunking and local transcription tools.

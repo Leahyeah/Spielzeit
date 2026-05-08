@@ -33,8 +33,16 @@ For Aliyun Tingwu transcription, install the optional SDK and provide credential
 
 ```bash
 python3 -m pip install -r requirements-transcription.txt
-export ALIBABA_CLOUD_ACCESS_KEY_ID=...
-export ALIBABA_CLOUD_ACCESS_KEY_SECRET=...
-export ALIYUN_TINGWU_APP_KEY=...
+```
+
+Then create a local `.env` file from `.env.example` and fill in the real values. `.env` is ignored by git:
+
+```bash
+cp .env.example .env
+```
+
+Run a small test:
+
+```bash
 python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --since 2025-01-01 --limit 3
 ```

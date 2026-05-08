@@ -79,11 +79,11 @@ Aliyun Tingwu is also supported. It creates an offline Tingwu task from each epi
 
 ```bash
 python3 -m pip install -r requirements-transcription.txt
-export ALIBABA_CLOUD_ACCESS_KEY_ID=...
-export ALIBABA_CLOUD_ACCESS_KEY_SECRET=...
-export ALIYUN_TINGWU_APP_KEY=...
+cp .env.example .env
 python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --since 2025-01-01 --limit 3
 ```
+
+Fill the local `.env` with real credentials before running. `.env` is ignored by git.
 
 Use `--aliyun-source-language fspk` for mixed Chinese/English podcasts, or `cn`, `en`, `ja`, `yue` for single-language shows. Do not paste AccessKey values into Slock.
 

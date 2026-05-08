@@ -54,7 +54,7 @@ Review `podcasts/weekly/<date>.md`, then send a concise category-based update in
 
 ## Audio Transcription
 
-RSS text is only a lightweight baseline. For fuller historical text, transcribe audio for episodes published from 2025 onward and for new episodes.
+RSS text is only a lightweight baseline. For fuller text, transcribe selected priority episodes and new weekly episodes. The 2025+ bulk backfill is intentionally capped: do not keep chasing the remaining long-history backlog unless the user explicitly reopens it.
 
 Audio policy:
 
@@ -75,7 +75,7 @@ Default engine is OpenAI transcription API and requires `OPENAI_API_KEY` in the 
 python3 scripts/transcribe_podcasts.py --engine command --command "your-transcriber {audio}" --since 2025-01-01
 ```
 
-Aliyun Tingwu is also supported. It creates an offline Tingwu task from each episode's public audio URL, polls task status, fetches the returned `Transcription` JSON, and writes the assembled transcript text into the episode Markdown.
+Aliyun Tingwu is also supported. It creates an offline Tingwu task from each episode's public audio URL, polls task status, fetches the returned `Transcription` JSON, and writes the assembled transcript text into the episode Markdown. Current account/service limits may reject long episodes with `PRE.AudioDurationQuotaLimit`; treat those as skipped rather than blocking the weekly archive.
 
 ```bash
 python3 -m pip install -r requirements-transcription.txt
@@ -86,6 +86,12 @@ python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --since 2025-01-01
 Fill the local `.env` with real credentials before running. `.env` is ignored by git.
 
 Use `--aliyun-source-language fspk` for mixed Chinese/English podcasts, or `cn`, `en`, `ja`, `yue` for single-language shows. Do not paste AccessKey values into Slock.
+
+Batch rule:
+
+- Historical cap: attempted AI recent 20 + Web3 recent 20 in May 2026; do not bulk-backfill the rest.
+- Ongoing: transcribe new AI/Web3 priority episodes when they fit the service limit.
+- If a priority episode fails with `PRE.AudioDurationQuotaLimit`, keep RSS text/description and mention the skip in the weekly update.
 
 Recommended tool setup:
 

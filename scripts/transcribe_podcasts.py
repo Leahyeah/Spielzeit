@@ -358,6 +358,7 @@ def main() -> int:
     parser.add_argument("--aliyun-source-language", default="fspk", help="Aliyun Tingwu SourceLanguage: cn, en, fspk, ja, or yue.")
     parser.add_argument("--aliyun-poll-seconds", type=int, default=30)
     parser.add_argument("--aliyun-timeout-minutes", type=int, default=180)
+    parser.add_argument("--continue-on-error", action="store_true", help="Log failed episodes and keep processing the batch.")
     args = parser.parse_args()
 
     since = datetime.fromisoformat(args.since).replace(tzinfo=timezone.utc) if args.since else None
@@ -377,27 +378,39 @@ def main() -> int:
     if args.engine == "command" and not args.command:
         raise SystemExit("--command is required when --engine command")
 
+    failures: list[tuple[EpisodeFile, str]] = []
     for index, episode in enumerate(episodes, 1):
         print(f"[{index}/{len(episodes)}] {episode.category}/{episode.show}: {episode.title}", flush=True)
-        if args.engine == "openai":
-            audio = download_audio(episode)
-            transcript = transcribe_with_openai(audio, args.openai_model, args.language)
-            engine = f"OpenAI {args.openai_model}"
-        elif args.engine == "command":
-            audio = download_audio(episode)
-            transcript = transcribe_with_command(audio, args.command or "")
-            engine = args.command or "command"
-        else:
-            transcript = transcribe_with_aliyun_tingwu(
-                episode,
-                args.aliyun_source_language,
-                args.aliyun_poll_seconds,
-                args.aliyun_timeout_minutes,
-            )
-            engine = f"Aliyun Tingwu ({args.aliyun_source_language})"
-        insert_transcript(episode.path, transcript, engine)
-        print(f"  wrote transcript to {episode.path}")
-    return 0
+        try:
+            if args.engine == "openai":
+                audio = download_audio(episode)
+                transcript = transcribe_with_openai(audio, args.openai_model, args.language)
+                engine = f"OpenAI {args.openai_model}"
+            elif args.engine == "command":
+                audio = download_audio(episode)
+                transcript = transcribe_with_command(audio, args.command or "")
+                engine = args.command or "command"
+            else:
+                transcript = transcribe_with_aliyun_tingwu(
+                    episode,
+                    args.aliyun_source_language,
+                    args.aliyun_poll_seconds,
+                    args.aliyun_timeout_minutes,
+                )
+                engine = f"Aliyun Tingwu ({args.aliyun_source_language})"
+            insert_transcript(episode.path, transcript, engine)
+            print(f"  wrote transcript to {episode.path}")
+        except Exception as exc:
+            if not args.continue_on_error:
+                raise
+            message = str(exc)
+            failures.append((episode, message))
+            print(f"  failed: {message}", file=sys.stderr, flush=True)
+    if failures:
+        print("\nFailed episodes:", file=sys.stderr)
+        for episode, message in failures:
+            print(f"- {episode.category}/{episode.show}: {episode.title} :: {message}", file=sys.stderr)
+    return 0 if not failures or args.continue_on_error else 1
 
 
 if __name__ == "__main__":

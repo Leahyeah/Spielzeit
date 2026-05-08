@@ -2,7 +2,7 @@
   "categories": ["AI", "Web3", "创业", "市场投资"],
   "feeds": [
     {
-      "url": "https://sv101.fireside.fm/",
+      "url": "https://feeds.fireside.fm/sv101/rss",
       "slug": "sv101",
       "category": "AI",
       "tags": ["科技", "创业", "市场投资"],

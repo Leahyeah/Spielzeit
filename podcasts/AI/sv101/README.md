@@ -1,7 +1,7 @@
 ---
 title: "硅谷101"
 category: AI
-feed: https://sv101.fireside.fm/
+feed: https://feeds.fireside.fm/sv101/rss
 resolved_feed: https://feeds.fireside.fm/sv101/rss
 tags: "科技, 创业, 市场投资"
 ---
@@ -10,7 +10,7 @@ tags: "科技, 创业, 市场投资"
 
 - Category: AI
 - Tags: 科技, 创业, 市场投资
-- Feed: https://sv101.fireside.fm/
+- Feed: https://feeds.fireside.fm/sv101/rss
 - Resolved feed: https://feeds.fireside.fm/sv101/rss
 - Episodes archived: 243
 

@@ -22,3 +22,9 @@ Run the script from the repository root to refresh podcast RSS metadata and text
 ```bash
 python3 scripts/fetch_podcasts.py
 ```
+
+To transcribe audio into episode Markdown for fuller text history, configure a transcription engine first, then run:
+
+```bash
+python3 scripts/transcribe_podcasts.py --since 2025-01-01 --limit 3
+```

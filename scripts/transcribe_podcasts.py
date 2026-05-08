@@ -26,6 +26,7 @@ TRANSCRIPT_MARKER = "## Transcript"
 OPENAI_TRANSCRIPT_URL = "https://api.openai.com/v1/audio/transcriptions"
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini-transcribe"
 DEFAULT_ALIYUN_REGION = "cn-beijing"
+DEFAULT_ALIYUN_ENDPOINT = "tingwu.cn-beijing.aliyuncs.com"
 
 
 def load_dotenv(path: Path = Path(".env")) -> None:
@@ -186,9 +187,7 @@ def aliyun_client():
         access_key_secret=access_key_secret,
         region_id=os.environ.get("ALIBABA_CLOUD_REGION_ID", DEFAULT_ALIYUN_REGION),
     )
-    endpoint = os.environ.get("ALIYUN_TINGWU_ENDPOINT")
-    if endpoint:
-        config.endpoint = endpoint
+    config.endpoint = os.environ.get("ALIYUN_TINGWU_ENDPOINT", DEFAULT_ALIYUN_ENDPOINT)
     return TingwuClient(config)
 
 
@@ -238,8 +237,18 @@ def start_aliyun_task(client, episode: EpisodeFile, source_language: str, app_ke
 
 def wait_aliyun_task(client, task_id: str, poll_seconds: int, timeout_minutes: int) -> dict:
     deadline = time.time() + timeout_minutes * 60
+    transient_errors = 0
     while True:
-        payload = response_body_to_map(client.get_task_info(task_id))
+        try:
+            payload = response_body_to_map(client.get_task_info(task_id))
+            transient_errors = 0
+        except Exception as exc:
+            transient_errors += 1
+            if transient_errors > 5 or time.time() >= deadline:
+                raise
+            print(f"  Aliyun task {task_id} poll error: {exc}; retrying in {poll_seconds}s", flush=True)
+            time.sleep(poll_seconds)
+            continue
         if normalize_aliyun_code(payload.get("Code")) not in {"0", ""}:
             raise RuntimeError(f"Aliyun GetTaskInfo failed: {payload}")
         data = payload.get("Data") or {}

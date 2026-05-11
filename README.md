@@ -60,3 +60,15 @@ For feeds whose original audio URL is not readable by Tingwu, use OSS as a tempo
 ```bash
 python3 scripts/transcribe_podcasts.py --engine aliyun-tingwu --aliyun-use-oss-url --show sv101 --limit 1
 ```
+
+## YC Library Archive
+
+- YC Library index: [yc/library/README.md](yc/library/README.md)
+- Update plan: [yc/UPDATE_PLAN.md](yc/UPDATE_PLAN.md)
+- Update script: [scripts/fetch_yc_library.py](scripts/fetch_yc_library.py)
+
+Run the script from the repository root to refresh selected YC Library series:
+
+```bash
+python3 scripts/fetch_yc_library.py --since 2024-05-11
+```

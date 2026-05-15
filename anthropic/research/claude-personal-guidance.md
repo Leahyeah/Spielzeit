@@ -15,7 +15,7 @@ Societal Impacts | Apr 30, 2026
 
 ## External Links
 
-- http://claude.ai/redirect/website.v1.7c79c6bf-ead9-4567-a703-f79bdff822ad
+- http://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60
 - https://cdn.sanity.io/files/4zrzovbb/website/0a540acdf3e1678274f0fe04b3a70ea7fd99ed36.pdf
 - https://arxiv.org/abs/2511.15352
 
@@ -42,7 +42,7 @@ There remain many open questions on what good guidance from AI really means or h
 ##
 **What kinds of guidance do people seek from Claude?**
 
-We sampled 1 million [claude.ai](http://claude.ai/redirect/website.v1.7c79c6bf-ead9-4567-a703-f79bdff822ad) conversations from March and April 2026 and filtered for unique users to get roughly 639,000 conversations. We then used a classifier to identify*personal guidance,*which we defined as conversations where people ask what*they specifically*should do in their personal lives—for example, questions that start with "Should I…?" or "What do I do about…?". We excluded questions that seek objective information or opinions in general terms.
+We sampled 1 million [claude.ai](http://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60) conversations from March and April 2026 and filtered for unique users to get roughly 639,000 conversations. We then used a classifier to identify*personal guidance,*which we defined as conversations where people ask what*they specifically*should do in their personal lives—for example, questions that start with "Should I…?" or "What do I do about…?". We excluded questions that seek objective information or opinions in general terms.
 
 We categorized these roughly 38,000 conversations into nine domains, drawing from previous research on AI and guidance-giving: relationships, career, personal development, financial, legal, health and wellness, parenting, ethics, and spirituality (see [Appendix](https://cdn.sanity.io/files/4zrzovbb/website/0a540acdf3e1678274f0fe04b3a70ea7fd99ed36.pdf) for more information). This taxonomy covered 98% of the conversations we saw.
 
@@ -121,18 +121,20 @@ At the bottom of every response on claude.ai is an option to send feedback via a
 
 ## Related content
 
-### Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
+Our views on the AI competition between the US and China.
 
-### Announcing the Anthropic Economic Index Survey
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+### Teaching Claude why
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+New research on how we've reduced agentic misalignment.
 
-### What 81,000 people told us about the economics of AI
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-Our recent survey study with 81,000 Claude users provides a way to connect people’s economic concerns with what we’ve quantified in Claude traffic.
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
 
-[Read more](https://www.anthropic.com/research/81k-economics)
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)

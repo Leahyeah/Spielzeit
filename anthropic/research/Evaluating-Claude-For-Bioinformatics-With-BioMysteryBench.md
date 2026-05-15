@@ -179,21 +179,23 @@ If you are interested in understanding how models perform on difficult verifiabl
 
 ## Related content
 
-### How people ask Claude for personal guidance
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/claude-personal-guidance)
+Our views on the AI competition between the US and China.
 
-### Announcing the Anthropic Economic Index Survey
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+### Teaching Claude why
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+New research on how we've reduced agentic misalignment.
 
-### What 81,000 people told us about the economics of AI
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-Our recent survey study with 81,000 Claude users provides a way to connect people’s economic concerns with what we’ve quantified in Claude traffic.
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
 
-[Read more](https://www.anthropic.com/research/81k-economics)
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)
 
 ## Subscribe to Anthropic Science
 

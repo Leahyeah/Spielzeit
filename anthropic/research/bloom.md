@@ -17,7 +17,7 @@ Alignment | Dec 19, 2025
 
 - https://github.com/safety-research/bloom/
 - https://inspect.aisi.org.uk
-- https://claude.ai/redirect/website.v1.7c79c6bf-ead9-4567-a703-f79bdff822ad/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126
+- https://claude.ai/redirect/website.v1.010bbeb5-7851-4e3f-8fb9-1ef471de8382/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126
 - https://github.com/safety-research/bloom
 
 ## Archived Content
@@ -54,7 +54,7 @@ Unlike fixed evaluation sets, Bloom produces different scenarios on each run whi
 
 Researchers can extensively configure Bloom's behavior, through choosing models for each stage, adjusting the interactions’ length and modality (i.e., whether to expose tools to the target model, whether to simulate a user), controlling how diverse the evaluation scenarios are, and specifying secondary scoring dimensions, like realism or elicitation difficulty.
 
-**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.7c79c6bf-ead9-4567-a703-f79bdff822ad/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
+**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.010bbeb5-7851-4e3f-8fb9-1ef471de8382/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
 
 ## Validation and trust
 
@@ -98,16 +98,20 @@ We would like to thank Keshav Shenoy, Christine Ye, Simon Storf, Julius Steen, J
 
 ## Related content
 
-### How people ask Claude for personal guidance
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/claude-personal-guidance)
+Our views on the AI competition between the US and China.
 
-### Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-[Read more](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
+### Teaching Claude why
 
-### Announcing the Anthropic Economic Index Survey
+New research on how we've reduced agentic misalignment.
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
+
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)

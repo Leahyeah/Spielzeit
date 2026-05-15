@@ -1,13 +1,18 @@
 # Anthropic Research Archive
 
 Source: https://www.anthropic.com/research and https://www.anthropic.com/sitemap.xml
-Last updated: 2026-05-06
-Archived pages: 111
+Last updated: 2026-05-15
+Archived pages: 116
 
 This archive stores Anthropic public research pages as Markdown for reading and follow-up summaries.
 
 ## Publications
 
+- [2028: Two scenarios for global AI leadership](research/2028-ai-leadership.md) - Policy | May 14, 2026
+- [Teaching Claude why](research/teaching-claude-why.md) - Alignment | May 8, 2026
+- [Natural Language Autoencoders: Turning Claude’s thoughts into text](research/natural-language-autoencoders.md) - Interpretability | May 7, 2026
+- [Focus areas for The Anthropic Institute](research/anthropic-institute-agenda.md) - Policy | May 7, 2026
+- [Donating our open-source alignment tool](research/donating-open-source-petri.md) - Alignment | May 7, 2026
 - [How people ask Claude for personal guidance](research/claude-personal-guidance.md) - Societal Impacts | Apr 30, 2026
 - [Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench](research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench.md) - Science | Apr 29, 2026
 - [What 81,000 people told us about the economics of AI](research/81k-economics.md) - Economic Research | Apr 22, 2026

@@ -12,12 +12,13 @@ tags: "创业"
 - Tags: 创业
 - Feed: https://feed.xyzfm.space/hnetc83hllku
 - Resolved feed: https://feed.xyzfm.space/hnetc83hllku
-- Episodes archived: 24
+- Episodes archived: 25
 
 汇聚前沿AI和数字创新领域的新鲜观点 为硅基时代的创业者们带来更多前沿视角 公众号：硅星人 × 硅基立场 联系方式：oneoneyoubei
 
 ## Latest Episodes
 
+- 2026-05-10 [Vol.25 对话 EvoMap 张昊阳：被 Hermes Agent “抄袭”之后的日子](episodes/2026-05-10-vol-25-对话-evomap-张昊阳-被-hermes-agent-抄袭-之后的日子-cb429481.md)
 - 2026-04-09 [Vol.24 对话 Cathy Di & Long Yi：进了 YC 就像进了「体制内」](episodes/2026-04-09-vol-24-对话-cathy-di-long-yi-进了-yc-就像进了-体制内-58ef6a61.md)
 - 2026-04-01 [Vol.23 【嗨点小圆桌】当AI界只剩一个声音，会既无趣又危险｜对谈 AI 科学家靳潇杰、刘淼](episodes/2026-04-01-vol-23-嗨点小圆桌-当ai界只剩一个声音-会既无趣又危险-对谈-ai-科学家靳潇杰-刘淼-f1643a68.md)
 - 2026-03-24 [Vol.22 对话吕骋：差点成先烈，被 Agent 救了，CLI 和 AI 原生电脑](episodes/2026-03-24-vol-22-对话吕骋-差点成先烈-被-agent-救了-cli-和-ai-原生电脑-7c5d9463.md)
@@ -37,4 +38,3 @@ tags: "创业"
 - 2025-03-10 [Vol.8 邀请码、自嗨、“套壳”和通用Agent：Manus妖股式爆火营销之后的冷思考](episodes/2025-03-10-vol-8-邀请码-自嗨-套壳-和通用agent-manus妖股式爆火营销之后的冷思考-52c7acf4.md)
 - 2025-01-25 [Vol.7 大模型六小龙，别再端着了！](episodes/2025-01-25-vol-7-大模型六小龙-别再端着了-65f9ead3.md)
 - 2024-10-22 [Vol.6 机器人为什么要像人？大模型爆发跟它有什么关系？当我们在讨论具身智能的时候，到底在关注什么？](episodes/2024-10-22-vol-6-机器人为什么要像人-大模型爆发跟它有什么关系-当我们在讨论具身智能的时候-到底在关注什么-ea8cd045.md)
-- 2024-10-16 [Vol.5 和Deepmind前科学家、硅谷AI Agent创业者聊聊如何把你的电脑变成另一个你](episodes/2024-10-16-vol-5-和deepmind前科学家-硅谷ai-agent创业者聊聊如何把你的电脑变成另一个你-056e5628.md)

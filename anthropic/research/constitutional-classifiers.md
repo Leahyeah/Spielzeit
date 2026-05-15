@@ -21,7 +21,7 @@ Alignment | Feb 3, 2025
 - https://arxiv.org/abs/2212.08073
 - https://arxiv.org/abs/2411.07494
 - https://arxiv.org/abs/2411.17693
-- https://claude.ai/redirect/website.v1.b81ead2a-66b0-41d2-8cfc-7f50a40eadaf/constitutional-classifiers
+- https://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60/constitutional-classifiers
 - https://hackerone.com/constitutional-classifiers?type=team
 - https://x.com/AnthropicAI/status/1887227067156386027
 - https://hackerone.com/constitutional-classifiers
@@ -91,13 +91,13 @@ The [full paper](https://arxiv.org/abs/2501.18837) contains all the details abou
 
 ## Constitutional Classifiers live demo
 
-Want to try red teaming Claude yourself? We invite you to try out a [demo of our Constitutional-Classifiers-guarded system](https://claude.ai/redirect/website.v1.b81ead2a-66b0-41d2-8cfc-7f50a40eadaf/constitutional-classifiers) and attempt to jailbreak a version of Claude 3.5 Sonnet that is guarded using our new technique.**[Edit 10 February 2025: The demo is now complete. See below for details].**
+Want to try red teaming Claude yourself? We invite you to try out a [demo of our Constitutional-Classifiers-guarded system](https://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60/constitutional-classifiers) and attempt to jailbreak a version of Claude 3.5 Sonnet that is guarded using our new technique.**[Edit 10 February 2025: The demo is now complete. See below for details].**
 
 Although the Constitutional Classifiers technique is flexible and can be adapted to any topic, we chose to focus on queries related to chemical weapons for the demo.
 
 Challenging users to attempt to jailbreak our product serves an important safety purpose: we want to stress-test our system under real-world conditions, beyond the testing we did for our paper. This allows us to gather additional data and improve the robustness of the method prior to deploying this method on our production systems in the future.
 
-The [**demo**](https://claude.ai/redirect/website.v1.b81ead2a-66b0-41d2-8cfc-7f50a40eadaf/constitutional-classifiers) will be live from**Feb 3, 2025**to**Feb 10, 2025**. It includes a feedback form where you can contact us to report any successful jailbreaks as well as information on our [Responsible Disclosure Policy](https://www.anthropic.com/responsible-disclosure-policy) , which we ask that participants follow. We’ll announce any successes and the general results of the demo in an update to this post.
+The [**demo**](https://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60/constitutional-classifiers) will be live from**Feb 3, 2025**to**Feb 10, 2025**. It includes a feedback form where you can contact us to report any successful jailbreaks as well as information on our [Responsible Disclosure Policy](https://www.anthropic.com/responsible-disclosure-policy) , which we ask that participants follow. We’ll announce any successes and the general results of the demo in an update to this post.
 
 ## 13 February 2025 update: Live demo results
 
@@ -186,16 +186,20 @@ If you’re interested in working on problems such as jailbreak robustness or on
 
 ## Related content
 
-### How people ask Claude for personal guidance
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/claude-personal-guidance)
+Our views on the AI competition between the US and China.
 
-### Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-[Read more](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
+### Teaching Claude why
 
-### Announcing the Anthropic Economic Index Survey
+New research on how we've reduced agentic misalignment.
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
+
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)

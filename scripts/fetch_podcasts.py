@@ -221,6 +221,11 @@ def write_show(entry: dict[str, Any], show: Show) -> list[Path]:
     written.append(show_readme)
     for episode in show.episodes:
         path = episode_dir / episode_filename(episode)
+        if path.exists():
+            # Preserve richer episode files, especially audio transcripts added
+            # after the RSS-only archive was created.
+            written.append(path)
+            continue
         lines = [
             "---",
             f'title: "{md_escape(episode.title)}"',

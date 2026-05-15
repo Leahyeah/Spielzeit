@@ -12,12 +12,13 @@ tags: "AI, 科技"
 - Tags: AI, 科技
 - Feed: https://www.ximalaya.com/album/20119986.xml
 - Resolved feed: https://www.ximalaya.com/album/20119986.xml
-- Episodes archived: 300
+- Episodes archived: 301
 
 纪源资本出品的非严肃商业访谈
 
 ## Latest Episodes
 
+- 2026-05-14 [S8 Vol.7 QuickCEP陈光：一家AI Agent公司，如何成为出海品牌背后的「隐形冠军」？](episodes/2026-05-14-s8-vol-7-quickcep陈光-一家ai-agent公司-如何成为出海品牌背后的-隐形冠军-8fef96a7.md)
 - 2026-05-07 [S8 Vol.6 编程猫孙悦：我们是一家「反焦虑」的公司](episodes/2026-05-07-s8-vol-6-编程猫孙悦-我们是一家-反焦虑-的公司-0c7a3a8f.md)
 - 2026-04-23 [S8 Vol.5 费曼动力胡适：当化石能源不可持续，我们如何重构下一代能源体系？](episodes/2026-04-23-s8-vol-5-费曼动力胡适-当化石能源不可持续-我们如何重构下一代能源体系-b6b84544.md)
 - 2026-04-16 [S8 Vol.4 群核科技黄晓煌：十五年磨一剑，迎接空间智能新纪元](episodes/2026-04-16-s8-vol-4-群核科技黄晓煌-十五年磨一剑-迎接空间智能新纪元-3e26e98b.md)
@@ -37,4 +38,3 @@ tags: "AI, 科技"
 - 2025-10-30 [S7 Vol.31 灵明光子臧凯：当激光雷达学会看世界](episodes/2025-10-30-s7-vol-31-灵明光子臧凯-当激光雷达学会看世界-69c334b8.md)
 - 2025-10-23 [S7 Vol.30 光轮智能谢晨：成为具身智能背后的 AI「卖水人」](episodes/2025-10-23-s7-vol-30-光轮智能谢晨-成为具身智能背后的-ai-卖水人-ed0d0c2b.md)
 - 2025-10-16 [S7 Vol.29 Pine AI 孙雨润：砍价、投诉、和客服拉扯……你可以把头疼的事交给AI](episodes/2025-10-16-s7-vol-29-pine-ai-孙雨润-砍价-投诉-和客服拉扯-你可以把头疼的事交给ai-adfa7995.md)
-- 2025-09-25 [S7 Vol.28 Gyges Labs贾捷阳：一副真正可以走进日常的 AI 眼镜是什么样的？](episodes/2025-09-25-s7-vol-28-gyges-labs贾捷阳-一副真正可以走进日常的-ai-眼镜是什么样的-92d67c21.md)

@@ -23,7 +23,7 @@ Announcements | Feb 24, 2025
 - https://x.ai/blog/grok-3
 - https://openai.com/index/openai-o3-mini/
 - https://arxiv.org/abs/2311.12022
-- http://claude.ai/redirect/website.v1.b81ead2a-66b0-41d2-8cfc-7f50a40eadaf
+- http://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60
 
 ## Archived Content
 
@@ -113,7 +113,7 @@ The above is just a short summary of some of our extensive safety work on Claude
 
 ## **Using Claude**
 
-You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.b81ead2a-66b0-41d2-8cfc-7f50a40eadaf) or on [our API](https://docs.anthropic.com/en/api/getting-started) . And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com) .
+You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60) or on [our API](https://docs.anthropic.com/en/api/getting-started) . And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com) .
 
 #### Footnotes
 
@@ -129,16 +129,20 @@ You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/websi
 
 ## Related content
 
-### How people ask Claude for personal guidance
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/claude-personal-guidance)
+Our views on the AI competition between the US and China.
 
-### Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-[Read more](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
+### Teaching Claude why
 
-### Announcing the Anthropic Economic Index Survey
+New research on how we've reduced agentic misalignment.
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
+
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)

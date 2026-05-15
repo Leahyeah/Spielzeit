@@ -1,6 +1,6 @@
 # Podcast Archive
 
-Last updated: 2026-05-08
+Last updated: 2026-05-15
 
 This archive stores podcast RSS metadata and text fields only. Audio files are linked but not stored.
 
@@ -36,6 +36,9 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 
 ### AI
 
+- 2026-05-15 [硅谷101](AI/sv101/episodes/2026-05-15-e236-99-的作业都是ai写的-当代名校生眼里-大学还剩下什么-500fd04a.md): [E236｜99%的作业都是AI写的：当代名校生眼里，大学还剩下什么？](AI/sv101/episodes/2026-05-15-e236-99-的作业都是ai写的-当代名校生眼里-大学还剩下什么-500fd04a.md)
+- 2026-05-10 [硅基立场](AI/silicon-stance/episodes/2026-05-10-vol-25-对话-evomap-张昊阳-被-hermes-agent-抄袭-之后的日子-cb429481.md): [Vol.25 对话 EvoMap 张昊阳：被 Hermes Agent “抄袭”之后的日子](AI/silicon-stance/episodes/2026-05-10-vol-25-对话-evomap-张昊阳-被-hermes-agent-抄袭-之后的日子-cb429481.md)
+- 2026-05-09 [硅谷101](AI/sv101/episodes/2026-05-09-e235-20年内car-t治愈癌症-与刘诚博士聊聊癌症治疗的底层哲学-8940cb0c.md): [E235｜20年内CAR-T治愈癌症？与刘诚博士聊聊癌症治疗的底层哲学](AI/sv101/episodes/2026-05-09-e235-20年内car-t治愈癌症-与刘诚博士聊聊癌症治疗的底层哲学-8940cb0c.md)
 - 2026-05-05 [十字路口Crossing](AI/crossing/episodes/2026-05-05-探秘-claude-code-搞懂-agent-harness-对谈来新璐-44d83b35.md): [探秘 Claude Code，搞懂 Agent Harness｜对谈来新璐](AI/crossing/episodes/2026-05-05-探秘-claude-code-搞懂-agent-harness-对谈来新璐-44d83b35.md)
 - 2026-04-28 [十字路口Crossing](AI/crossing/episodes/2026-04-28-当我们在讨论-harness-的时候-我们在讨论什么-深度对谈-minimax-hermes-agent-4710f5e2.md): [当我们在讨论 Harness 的时候，我们在讨论什么 | 深度对谈: Minimax × Hermes Agent](AI/crossing/episodes/2026-04-28-当我们在讨论-harness-的时候-我们在讨论什么-深度对谈-minimax-hermes-agent-4710f5e2.md)
 - 2026-04-26 [十字路口Crossing](AI/crossing/episodes/2026-04-26-为什么公司用不好ai-从焦虑到行动的-3-个关键动作-对谈百融智能张韶峰-4f60e00f.md): [为什么公司用不好AI？从焦虑到行动的 3 个关键动作｜对谈百融智能张韶峰](AI/crossing/episodes/2026-04-26-为什么公司用不好ai-从焦虑到行动的-3-个关键动作-对谈百融智能张韶峰-4f60e00f.md)
@@ -43,9 +46,6 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-04-22 [硅谷101](AI/sv101/episodes/2026-04-22-e234-未来实拍电影还存在吗-与导演陆川聊聊ai给影视人的恐惧与自由-77584d20.md): [E234｜未来实拍电影还存在吗？与导演陆川聊聊AI给影视人的恐惧与自由](AI/sv101/episodes/2026-04-22-e234-未来实拍电影还存在吗-与导演陆川聊聊ai给影视人的恐惧与自由-77584d20.md)
 - 2026-04-19 [十字路口Crossing](AI/crossing/episodes/2026-04-19-你有一把能够挖出金子的铲子-肯定不会先给别人用-对谈开物纪陆子恒-用ai发明新材料-d1d9aa0f.md): [“你有一把能够挖出金子的铲子，肯定不会先给别人用”｜对谈开物纪陆子恒：用AI发明新材料](AI/crossing/episodes/2026-04-19-你有一把能够挖出金子的铲子-肯定不会先给别人用-对谈开物纪陆子恒-用ai发明新材料-d1d9aa0f.md)
 - 2026-04-17 [海外独角兽](AI/overseas-unicorn/episodes/2026-04-17-为什么-高价值任务-变成了所有模型公司的第一优先级-拾象-agi-备忘录-a891b657.md): [为什么“高价值任务”变成了所有模型公司的第一优先级？｜拾象 AGI 备忘录](AI/overseas-unicorn/episodes/2026-04-17-为什么-高价值任务-变成了所有模型公司的第一优先级-拾象-agi-备忘录-a891b657.md)
-- 2026-04-17 [硅谷101](AI/sv101/episodes/2026-04-17-e233-硅谷右翼的权力网如何形成-聊聊彼得-蒂尔的思想启蒙拼图-7ea364d3.md): [E233｜硅谷右翼的权力网如何形成？聊聊彼得·蒂尔的思想启蒙拼图](AI/sv101/episodes/2026-04-17-e233-硅谷右翼的权力网如何形成-聊聊彼得-蒂尔的思想启蒙拼图-7ea364d3.md)
-- 2026-04-14 [十字路口Crossing](AI/crossing/episodes/2026-04-14-具身智能的滔天大泡沫中-他已经把机器人送进300个家庭-对话张翼-未来不远创始人-ceo-ebeda282.md): [具身智能的滔天大泡沫中，他已经把机器人送进300个家庭｜对话张翼：未来不远创始人/CEO](AI/crossing/episodes/2026-04-14-具身智能的滔天大泡沫中-他已经把机器人送进300个家庭-对话张翼-未来不远创始人-ceo-ebeda282.md)
-- 2026-04-10 [硅谷101](AI/sv101/episodes/2026-04-10-e232-餐饮出海有新招儿吗-从鼎泰丰与贡茶拿下美国初代销冠聊起-ad308dbd.md): [E232｜餐饮出海有新招儿吗？从鼎泰丰与贡茶拿下美国初代销冠聊起](AI/sv101/episodes/2026-04-10-e232-餐饮出海有新招儿吗-从鼎泰丰与贡茶拿下美国初代销冠聊起-ad308dbd.md)
 
 ### Web3
 
@@ -62,6 +62,8 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 
 ### 创业
 
+- 2026-05-14 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-05-14-s8-vol-7-quickcep陈光-一家ai-agent公司-如何成为出海品牌背后的-隐形冠军-8fef96a7.md): [S8 Vol.7 QuickCEP陈光：一家AI Agent公司，如何成为出海品牌背后的「隐形冠军」？](创业/startup-insider/episodes/2026-05-14-s8-vol-7-quickcep陈光-一家ai-agent公司-如何成为出海品牌背后的-隐形冠军-8fef96a7.md)
+- 2026-05-13 [跨海电波](创业/cross-sea-radio/episodes/2026-05-13-ep16-纽大创业学教授-同样是做生意-你是经理人思维还是创业者思维-7590fc6f.md): [EP16 纽大创业学教授：同样是做生意，你是经理人思维还是创业者思维？](创业/cross-sea-radio/episodes/2026-05-13-ep16-纽大创业学教授-同样是做生意-你是经理人思维还是创业者思维-7590fc6f.md)
 - 2026-05-07 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-05-07-s8-vol-6-编程猫孙悦-我们是一家-反焦虑-的公司-0c7a3a8f.md): [S8 Vol.6 编程猫孙悦：我们是一家「反焦虑」的公司](创业/startup-insider/episodes/2026-05-07-s8-vol-6-编程猫孙悦-我们是一家-反焦虑-的公司-0c7a3a8f.md)
 - 2026-04-23 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-04-23-s8-vol-5-费曼动力胡适-当化石能源不可持续-我们如何重构下一代能源体系-b6b84544.md): [S8 Vol.5 费曼动力胡适：当化石能源不可持续，我们如何重构下一代能源体系？](创业/startup-insider/episodes/2026-04-23-s8-vol-5-费曼动力胡适-当化石能源不可持续-我们如何重构下一代能源体系-b6b84544.md)
 - 2026-04-23 [42章经](创业/42/episodes/2026-04-23-用-agent-动力学-和-40-个-agents-一起为-人-ai-做产品-对谈-slock-ai-创始人-rc-8ba09c46.md): [用 Agent 动力学，和 40 个 Agents 一起为「人 + AI」做产品｜对谈 Slock.ai 创始人 RC](创业/42/episodes/2026-04-23-用-agent-动力学-和-40-个-agents-一起为-人-ai-做产品-对谈-slock-ai-创始人-rc-8ba09c46.md)
@@ -70,11 +72,11 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-04-09 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-04-09-s8-vol-3-纪源资本陈于思-当agi来敲门-你确定自己准备好了吗-b6207bf8.md): [S8 Vol.3 纪源资本陈于思：当AGI来敲门，你确定自己准备好了吗？](创业/startup-insider/episodes/2026-04-09-s8-vol-3-纪源资本陈于思-当agi来敲门-你确定自己准备好了吗-b6207bf8.md)
 - 2026-04-08 [跨海电波](创业/cross-sea-radio/episodes/2026-04-08-ep14-打样是一门好生意吗-和smallrig周阳聊聊-许愿池-供应链怎么玩-13e8f3f7.md): [EP14 打样是一门好生意吗？和SmallRig周阳聊聊「许愿池」供应链怎么玩](创业/cross-sea-radio/episodes/2026-04-08-ep14-打样是一门好生意吗-和smallrig周阳聊聊-许愿池-供应链怎么玩-13e8f3f7.md)
 - 2026-04-02 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-04-02-s8-vol-2-申基生物童坤-成为核酸药物的-芯片-制造者-94e63e62.md): [S8 Vol.2 申基生物童坤：成为核酸药物的「芯片」制造者](创业/startup-insider/episodes/2026-04-02-s8-vol-2-申基生物童坤-成为核酸药物的-芯片-制造者-94e63e62.md)
-- 2026-03-26 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-03-26-s8-vol-1-银河通用王鹤-秀肌肉-元年后-具身智能如何走向真实生产力-e132af88.md): [S8 Vol.1 银河通用王鹤：「秀肌肉」元年后，具身智能如何走向真实生产力？](创业/startup-insider/episodes/2026-03-26-s8-vol-1-银河通用王鹤-秀肌肉-元年后-具身智能如何走向真实生产力-e132af88.md)
-- 2026-03-25 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-03-25-创业内幕第八年-无限可能的创业故事-无限延展的技术边界-c68ff135.md): [创业内幕第八年：无限可能的创业故事，无限延展的技术边界](创业/startup-insider/episodes/2026-03-25-创业内幕第八年-无限可能的创业故事-无限延展的技术边界-c68ff135.md)
 
 ### 市场投资
 
+- 2026-05-12 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-05-12-166-普通人能从机构投资者身上学到什么-串台投资abc-413963c8.md): [166.普通人能从机构投资者身上学到什么？｜串台投资ABC](市场投资/qizhulu/episodes/2026-05-12-166-普通人能从机构投资者身上学到什么-串台投资abc-413963c8.md)
+- 2026-05-09 [高能量](市场投资/high-energy/episodes/2026-05-09-vol-216-产业观察41-具身-不够卷-世界模型和机器人大脑-再访逐际动力张巍-2a65d72e.md): [Vol.216 产业观察41｜具身“不够卷”、世界模型和机器人大脑：再访逐际动力张巍](市场投资/high-energy/episodes/2026-05-09-vol-216-产业观察41-具身-不够卷-世界模型和机器人大脑-再访逐际动力张巍-2a65d72e.md)
 - 2026-05-06 [高能量](市场投资/high-energy/episodes/2026-05-06-vol-215-再访王宁-与王宁聊他的2025年以及泡泡玛特的未来-d5e5a390.md): [Vol.215 再访王宁：与王宁聊他的2025年以及泡泡玛特的未来](市场投资/high-energy/episodes/2026-05-06-vol-215-再访王宁-与王宁聊他的2025年以及泡泡玛特的未来-d5e5a390.md)
 - 2026-05-05 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-05-05-165-年报季中的真实中国2026-72863fe8.md): [165.年报季中的真实中国2026](市场投资/qizhulu/episodes/2026-05-05-165-年报季中的真实中国2026-72863fe8.md)
 - 2026-04-30 [高能量](市场投资/high-energy/episodes/2026-04-30-vol-214-宏观漫谈104-一季度gdp增长5-谁在支撑中国经济-4-25录制-fa239aed.md): [Vol.214 宏观漫谈104｜一季度GDP增长5%，谁在支撑中国经济（4.25录制）](市场投资/high-energy/episodes/2026-04-30-vol-214-宏观漫谈104-一季度gdp增长5-谁在支撑中国经济-4-25录制-fa239aed.md)
@@ -83,5 +85,3 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-04-21 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-04-21-164-算法的-兔子洞-为什么你总在看完新闻后滑向娱乐-对谈黄圣淳教授-5018bf7e.md): [164.算法的“兔子洞”：为什么你总在看完新闻后滑向娱乐？｜对谈黄圣淳教授](市场投资/qizhulu/episodes/2026-04-21-164-算法的-兔子洞-为什么你总在看完新闻后滑向娱乐-对谈黄圣淳教授-5018bf7e.md)
 - 2026-04-20 [The Wanderers 流浪者](市场投资/wanderers/episodes/2026-04-20-从焦虑到上手-白领-投资者的ai实战第一课-串台课代表立正-953f7ca9.md): [从焦虑到上手: 白领/投资者的AI实战第一课【串台课代表立正】](市场投资/wanderers/episodes/2026-04-20-从焦虑到上手-白领-投资者的ai实战第一课-串台课代表立正-953f7ca9.md)
 - 2026-04-14 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-04-14-163-当孤注一掷的年轻人遇上这个草台班子的世界-串台轻刀快马-d4b2e709.md): [163.当孤注一掷的年轻人遇上这个草台班子的世界｜串台轻刀快马](市场投资/qizhulu/episodes/2026-04-14-163-当孤注一掷的年轻人遇上这个草台班子的世界-串台轻刀快马-d4b2e709.md)
-- 2026-04-13 [高能量](市场投资/high-energy/episodes/2026-04-13-vol-212-产业观察39-ai-硬件-乐器的新演绎-与戴乐科技牛亚锋聊十年硬件创业-3471d075.md): [Vol.212 产业观察39｜AI+硬件+乐器的新演绎：与戴乐科技牛亚锋聊十年硬件创业](市场投资/high-energy/episodes/2026-04-13-vol-212-产业观察39-ai-硬件-乐器的新演绎-与戴乐科技牛亚锋聊十年硬件创业-3471d075.md)
-- 2026-04-06 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-04-06-162-财富的本质-以及自由的真正含义-串台十分吸引-a8bf2b07.md): [162.财富的本质，以及自由的真正含义｜串台十分吸引](市场投资/qizhulu/episodes/2026-04-06-162-财富的本质-以及自由的真正含义-串台十分吸引-a8bf2b07.md)

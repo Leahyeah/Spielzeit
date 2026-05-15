@@ -21,7 +21,7 @@ Interpretability | May 21, 2024
 - https://arxiv.org/abs/2403.19647
 - https://arxiv.org/abs/2404.16014
 - https://arxiv.org/abs/2001.08361
-- https://claude.ai/redirect/website.v1.160683d3-b377-4ce4-97f8-fdb70520e69d
+- https://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60
 - https://arxiv.org/abs/2310.13548
 - https://arxiv.org/abs/2310.03693
 - https://boards.greenhouse.io/anthropic/jobs/4009173008
@@ -53,7 +53,7 @@ There was both an engineering challenge (the raw sizes of the models involved re
 
 As for the scientific risk, the proof is in the pudding.
 
-We successfully extracted millions of features from the middle layer of Claude 3.0 Sonnet, (a member of our current, state-of-the-art model family, currently available on [claude.ai](https://claude.ai/redirect/website.v1.160683d3-b377-4ce4-97f8-fdb70520e69d) ), providing a rough conceptual map of its internal states halfway through its computation. This is the first ever detailed look inside a modern, production-grade large language model.
+We successfully extracted millions of features from the middle layer of Claude 3.0 Sonnet, (a member of our current, state-of-the-art model family, currently available on [claude.ai](https://claude.ai/redirect/website.v1.1457497c-df2f-450a-a84b-f78d6a4d2d60) ), providing a rough conceptual map of its internal states halfway through its computation. This is the first ever detailed look inside a modern, production-grade large language model.
 
 Whereas the features we found in the toy language model were rather superficial, the features we found in Sonnet have a depth, breadth, and abstraction reflecting Sonnet's advanced capabilities.
 
@@ -109,16 +109,20 @@ For full details, please read our paper, " [Scaling Monosemanticity: Extracting 
 
 ## Related content
 
-### How people ask Claude for personal guidance
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/claude-personal-guidance)
+Our views on the AI competition between the US and China.
 
-### Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-[Read more](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
+### Teaching Claude why
 
-### Announcing the Anthropic Economic Index Survey
+New research on how we've reduced agentic misalignment.
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
+
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)

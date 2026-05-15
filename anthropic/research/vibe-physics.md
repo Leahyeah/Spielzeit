@@ -37,7 +37,7 @@ Science | Mar 23, 2026
 - https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/
 - https://harmonic.fun/
 - https://arxiv.org/abs/2601.14027
-- https://claude.ai/redirect/website.v1.160683d3-b377-4ce4-97f8-fdb70520e69d/code
+- https://claude.ai/redirect/website.v1.f513efcc-5c05-46a0-8db3-7a9ea0134a54/code
 - https://en.wikipedia.org/wiki/Minimal_subtraction_scheme
 - https://info.arxiv.org/help/moderation/index.html#policy-for-authors-use-of-generative-ai-language-tools
 - https://rentahuman.ai/
@@ -99,7 +99,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.160683d3-b377-4ce4-97f8-fdb70520e69d/code) . No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.f513efcc-5c05-46a0-8db3-7a9ea0134a54/code) . No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -109,7 +109,7 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf) . There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.160683d3-b377-4ce4-97f8-fdb70520e69d/code) , using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.f513efcc-5c05-46a0-8db3-7a9ea0134a54/code) , using the extension in VS Code.
 
 I created a folder for the project, put in the master plan, and had it try to solve each task separately, writing its results in a separate markdown file. Some examples are [Task 1.1: Review BSZ Paper](https://www-cdn.anthropic.com/c993ead637f1a102fe1f5346e89f59e82c579b37.pdf) and [Task 1.2: Review Catani—Webber](https://www-cdn.anthropic.com/94b3c41e52e19ba450fe5e804400ebcf0a88f3d0.pdf) .
 
@@ -284,19 +284,23 @@ Total Claude sessions 270 Messages exchanged 51,248 Input tokens ~27.5M Output t
 
 ## Related content
 
-### How people ask Claude for personal guidance
+### 2028: Two scenarios for global AI leadership
 
-[Read more](https://www.anthropic.com/research/claude-personal-guidance)
+Our views on the AI competition between the US and China.
 
-### Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench
+[Read more](https://www.anthropic.com/research/2028-ai-leadership)
 
-[Read more](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
+### Teaching Claude why
 
-### Announcing the Anthropic Economic Index Survey
+New research on how we've reduced agentic misalignment.
 
-We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.
+[Read more](https://www.anthropic.com/research/teaching-claude-why)
 
-[Read more](https://www.anthropic.com/research/economic-index-survey-announcement)
+### Natural Language Autoencoders: Turning Claude’s thoughts into text
+
+AI models like Claude talk in words but think in numbers. In this study we train Claude to translate its thoughts into human-readable text.
+
+[Read more](https://www.anthropic.com/research/natural-language-autoencoders)
 
 ## Subscribe to Anthropic Science
 

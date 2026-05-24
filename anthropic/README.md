@@ -1,13 +1,14 @@
 # Anthropic Research Archive
 
 Source: https://www.anthropic.com/research and https://www.anthropic.com/sitemap.xml
-Last updated: 2026-05-15
-Archived pages: 116
+Last updated: 2026-05-24
+Archived pages: 117
 
 This archive stores Anthropic public research pages as Markdown for reading and follow-up summaries.
 
 ## Publications
 
+- [Project Glasswing: An initial update](research/glasswing-initial-update.md) - Announcements | May 22, 2026
 - [2028: Two scenarios for global AI leadership](research/2028-ai-leadership.md) - Policy | May 14, 2026
 - [Teaching Claude why](research/teaching-claude-why.md) - Alignment | May 8, 2026
 - [Natural Language Autoencoders: Turning Claude’s thoughts into text](research/natural-language-autoencoders.md) - Interpretability | May 7, 2026

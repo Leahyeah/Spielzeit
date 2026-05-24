@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import html
+import argparse
 import re
 import sys
 import time
@@ -292,7 +293,41 @@ def page_markdown(page: Page) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+def read_cached_page(path: Path, url: str, slug: str) -> Page | None:
+    if not path.exists():
+        return None
+    text = path.read_text(encoding="utf-8")
+
+    def field(name: str) -> str:
+        match = re.search(rf"^{re.escape(name)}:\s*(.*)$", text, flags=re.M)
+        if not match:
+            return ""
+        value = match.group(1).strip()
+        if len(value) >= 2 and value[0] == value[-1] == '"':
+            value = value[1:-1]
+        return value
+
+    title = field("title") or first_match(r"^#\s+(.+)$", text)
+    return Page(
+        url=field("url") or url,
+        slug=slug,
+        title=title or slug,
+        date=field("date"),
+        category=field("category"),
+        description=field("description"),
+        external_links=[],
+        markdown="",
+    )
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--refresh-existing",
+        action="store_true",
+        help="Refetch and rewrite existing pages. By default only missing pages are fetched.",
+    )
+    args = parser.parse_args()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     sitemap = fetch(SITEMAP)
     urls = re.findall(r"<loc>(https://www\.anthropic\.com/research/[^<]+)</loc>", sitemap)
@@ -301,10 +336,16 @@ def main() -> int:
     failures: list[tuple[str, str]] = []
     for index, url in enumerate(urls, 1):
         try:
+            slug = slug_from_url(url)
+            path = OUT_DIR / f"{slug}.md"
+            cached = None if args.refresh_existing else read_cached_page(path, url, slug)
+            if cached:
+                pages.append(cached)
+                print(f"[{index:03d}/{len(urls)}] {slug} (cached)")
+                continue
             source = fetch(url)
             page = parse_page(url, source)
             pages.append(page)
-            path = OUT_DIR / f"{page.slug}.md"
             path.write_text(page_markdown(page), encoding="utf-8")
             print(f"[{index:03d}/{len(urls)}] {page.slug}")
             time.sleep(0.15)

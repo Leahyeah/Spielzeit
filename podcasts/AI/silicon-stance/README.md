@@ -12,12 +12,15 @@ tags: "创业"
 - Tags: 创业
 - Feed: https://feed.xyzfm.space/hnetc83hllku
 - Resolved feed: https://feed.xyzfm.space/hnetc83hllku
-- Episodes archived: 25
+- Episodes archived: 28
 
 汇聚前沿AI和数字创新领域的新鲜观点 为硅基时代的创业者们带来更多前沿视角 公众号：硅星人 × 硅基立场 联系方式：oneoneyoubei
 
 ## Latest Episodes
 
+- 2026-06-04 [Vol.28 对话 Bot Auto 创始人侯晓迪：有人说我扭曲堕落，我只是把爱给了生活](episodes/2026-06-04-vol-28-对话-bot-auto-创始人侯晓迪-有人说我扭曲堕落-我只是把爱给了生活-b5c17af1.md)
+- 2026-06-02 [Vol.27 对话 VAST 宋亚宸：3D，就是世界的源文件](episodes/2026-06-02-vol-27-对话-vast-宋亚宸-3d-就是世界的源文件-835708fb.md)
+- 2026-05-27 [Vol.26 2026机器人创业正当时?技术、人才全解析。](episodes/2026-05-27-vol-26-2026机器人创业正当时-技术-人才全解析-2fc74d28.md)
 - 2026-05-10 [Vol.25 对话 EvoMap 张昊阳：被 Hermes Agent “抄袭”之后的日子](episodes/2026-05-10-vol-25-对话-evomap-张昊阳-被-hermes-agent-抄袭-之后的日子-cb429481.md)
 - 2026-04-09 [Vol.24 对话 Cathy Di & Long Yi：进了 YC 就像进了「体制内」](episodes/2026-04-09-vol-24-对话-cathy-di-long-yi-进了-yc-就像进了-体制内-58ef6a61.md)
 - 2026-04-01 [Vol.23 【嗨点小圆桌】当AI界只剩一个声音，会既无趣又危险｜对谈 AI 科学家靳潇杰、刘淼](episodes/2026-04-01-vol-23-嗨点小圆桌-当ai界只剩一个声音-会既无趣又危险-对谈-ai-科学家靳潇杰-刘淼-f1643a68.md)
@@ -35,6 +38,3 @@ tags: "创业"
 - 2025-09-01 [Vol.11 对话Haivivi李勇｜首个“AI 奥特曼”诞生背后：一家不想让AI“全知全能”的AI公司，过山车般的一年](episodes/2025-09-01-vol-11-对话haivivi李勇-首个-ai-奥特曼-诞生背后-一家不想让ai-全知全能-的ai公司-过山车般的一年-d68deb9d.md)
 - 2025-04-09 [Vol.10 对话 Rabbit 创始人吕骋：做 AI Agent，向所有人开战](episodes/2025-04-09-vol-10-对话-rabbit-创始人吕骋-做-ai-agent-向所有人开战-ad4cf929.md)
 - 2025-03-30 [Vol.9 对话群核科技黄晓煌：拿着锤子找钉子的“杭州六小龙”，终于等来了“空间智能”的黎明](episodes/2025-03-30-vol-9-对话群核科技黄晓煌-拿着锤子找钉子的-杭州六小龙-终于等来了-空间智能-的黎明-8c754865.md)
-- 2025-03-10 [Vol.8 邀请码、自嗨、“套壳”和通用Agent：Manus妖股式爆火营销之后的冷思考](episodes/2025-03-10-vol-8-邀请码-自嗨-套壳-和通用agent-manus妖股式爆火营销之后的冷思考-52c7acf4.md)
-- 2025-01-25 [Vol.7 大模型六小龙，别再端着了！](episodes/2025-01-25-vol-7-大模型六小龙-别再端着了-65f9ead3.md)
-- 2024-10-22 [Vol.6 机器人为什么要像人？大模型爆发跟它有什么关系？当我们在讨论具身智能的时候，到底在关注什么？](episodes/2024-10-22-vol-6-机器人为什么要像人-大模型爆发跟它有什么关系-当我们在讨论具身智能的时候-到底在关注什么-ea8cd045.md)

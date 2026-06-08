@@ -72,6 +72,13 @@
       "notes": "创业内幕 Startup Insider，GGV/纪源资本创业访谈。"
     },
     {
+      "url": "https://www.lennysnewsletter.com/feed",
+      "slug": "lennys",
+      "category": "创业",
+      "tags": ["AI", "Product", "Growth", "PM", "Founder"],
+      "notes": "Lenny's Newsletter / Podcast，产品、增长、PM、创始人与 AI 产品实践。"
+    },
+    {
       "url": "https://feed.xyzfm.space/baitalks",
       "slug": "bai-talks",
       "category": "创业",

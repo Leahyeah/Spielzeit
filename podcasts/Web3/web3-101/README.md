@@ -12,12 +12,13 @@ tags: "AI, 创业"
 - Tags: AI, 创业
 - Feed: https://feeds.fireside.fm/web3101/rss
 - Resolved feed: https://feeds.fireside.fm/web3101/rss
-- Episodes archived: 88
+- Episodes archived: 89
 
 《Web3 101》是一档探索区块链技术、商业与人文的行业播客，关注影响区块链发展的重大转折点。
 
 ## Latest Episodes
 
+- 2026-06-01 [E80｜聊聊Stripe、智能体商务与机器支付的下一场革命](episodes/2026-06-01-e80-聊聊stripe-智能体商务与机器支付的下一场革命-1a41b8a8.md)
 - 2026-05-22 [E79｜支付巨头Stripe和Paradigm孵化的支付公链Tempo终于开口，和我们详谈推动稳定币大规模采用的战略部署、行动计划，还有Agent支付的未来](episodes/2026-05-22-e79-支付巨头stripe和paradigm孵化的支付公链tempo终于开口-和我们详谈推动稳定币大规模采用的战略部署-行动计划-还有agent支付的未来-cf284b99.md)
 - 2026-04-24 [E78｜深度拆解Hermes Agent和OpenRouter背后的Web3血缘，聊聊人才去了AI后Web3还有戏吗](episodes/2026-04-24-e78-深度拆解hermes-agent和openrouter背后的web3血缘-聊聊人才去了ai后web3还有戏吗-6dad892d.md)
 - 2026-03-27 [E77｜再聊预测市场：争议与理想叙事破灭，它是真相发掘机、多巴胺赌场，也是下一代社交网络](episodes/2026-03-27-e77-再聊预测市场-争议与理想叙事破灭-它是真相发掘机-多巴胺赌场-也是下一代社交网络-ccbf4ba5.md)
@@ -37,4 +38,3 @@ tags: "AI, 创业"
 - 2025-09-22 [E63｜以太坊的新装](episodes/2025-09-22-e63-以太坊的新装-53580042.md)
 - 2025-09-15 [E62｜从HyperLiquid招商会细品二线稳定币长短板](episodes/2025-09-15-e62-从hyperliquid招商会细品二线稳定币长短板-3ca1b4d0.md)
 - 2025-09-09 [E61｜挑战币安，巨鲸为什么都爱用Hyperliquid？](episodes/2025-09-09-e61-挑战币安-巨鲸为什么都爱用hyperliquid-b03b6060.md)
-- 2025-09-01 [E60｜再聊特朗普和WLFI ：总统亲友团来摘DeFi革命果实了？](episodes/2025-09-01-e60-再聊特朗普和wlfi-总统亲友团来摘defi革命果实了-cc540630.md)

@@ -24,7 +24,7 @@ from typing import Any
 
 ROOT = Path("podcasts")
 CONFIG = ROOT / "feeds.json"
-USER_AGENT = "Spielzeit podcast archiver (+https://github.com/Leahyeah/Spielzeit)"
+USER_AGENT = "Mozilla/5.0"
 
 
 class TextExtractor(HTMLParser):

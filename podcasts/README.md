@@ -1,6 +1,6 @@
 # Podcast Archive
 
-Last updated: 2026-06-08
+Last updated: 2026-06-20
 
 This archive stores podcast RSS metadata and text fields only. Audio files are linked but not stored.
 
@@ -37,16 +37,16 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 
 ### AI
 
+- 2026-06-18 [十字路口Crossing](AI/crossing/episodes/2026-06-18-哪条路线-才能通往-世界模型-的终局-对话黄碧薇-aether-ai-创始人-55ee1dca.md): [哪条路线，才能通往「世界模型」的终局？｜对话黄碧薇：Aether AI 创始人](AI/crossing/episodes/2026-06-18-哪条路线-才能通往-世界模型-的终局-对话黄碧薇-aether-ai-创始人-55ee1dca.md)
+- 2026-06-18 [硅基立场](AI/silicon-stance/episodes/2026-06-18-vol-29-对话王小川-造医生-战豆包-与无尽的-ai-非共识-9f703871.md): [Vol.29 对话王小川：造医生，战豆包，与无尽的 AI 非共识。](AI/silicon-stance/episodes/2026-06-18-vol-29-对话王小川-造医生-战豆包-与无尽的-ai-非共识-9f703871.md)
+- 2026-06-18 [硅谷101](AI/sv101/episodes/2026-06-18-e240-openai联手pe砸下40亿美元-聊聊硅谷最火新职位fde-9fc7b660.md): [E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE](AI/sv101/episodes/2026-06-18-e240-openai联手pe砸下40亿美元-聊聊硅谷最火新职位fde-9fc7b660.md)
+- 2026-06-12 [硅谷101](AI/sv101/episodes/2026-06-12-e239-spacex要让太空算力从科幻走向现实-但它划算吗-1c81e97f.md): [E239｜SpaceX要让太空算力从科幻走向现实，但它划算吗？](AI/sv101/episodes/2026-06-12-e239-spacex要让太空算力从科幻走向现实-但它划算吗-1c81e97f.md)
+- 2026-06-10 [十字路口Crossing](AI/crossing/episodes/2026-06-10-高手怎么用-ai-普通人怎么学-ai-投资人如何投-ai-对谈课代表立正-6bf1b6db.md): [高手怎么用 AI？普通人怎么学 AI？投资人如何投 AI？｜对谈课代表立正](AI/crossing/episodes/2026-06-10-高手怎么用-ai-普通人怎么学-ai-投资人如何投-ai-对谈课代表立正-6bf1b6db.md)
 - 2026-06-04 [硅基立场](AI/silicon-stance/episodes/2026-06-04-vol-28-对话-bot-auto-创始人侯晓迪-有人说我扭曲堕落-我只是把爱给了生活-b5c17af1.md): [Vol.28 对话 Bot Auto 创始人侯晓迪：有人说我扭曲堕落，我只是把爱给了生活](AI/silicon-stance/episodes/2026-06-04-vol-28-对话-bot-auto-创始人侯晓迪-有人说我扭曲堕落-我只是把爱给了生活-b5c17af1.md)
 - 2026-06-03 [十字路口Crossing](AI/crossing/episodes/2026-06-03-openai-和-anthropic-共同看好的-fde-ai-时代的新岗位出现-旧分工松动-对谈-rolling-ai-b05b6755.md): [OpenAI 和 Anthropic 共同看好的 FDE：AI 时代的新岗位出现，旧分工松动｜对谈 Rolling AI](AI/crossing/episodes/2026-06-03-openai-和-anthropic-共同看好的-fde-ai-时代的新岗位出现-旧分工松动-对谈-rolling-ai-b05b6755.md)
 - 2026-06-02 [硅基立场](AI/silicon-stance/episodes/2026-06-02-vol-27-对话-vast-宋亚宸-3d-就是世界的源文件-835708fb.md): [Vol.27 对话 VAST 宋亚宸：3D，就是世界的源文件](AI/silicon-stance/episodes/2026-06-02-vol-27-对话-vast-宋亚宸-3d-就是世界的源文件-835708fb.md)
 - 2026-05-27 [十字路口Crossing](AI/crossing/episodes/2026-05-27-2026-ai-游戏全景扫描-四层图景-三大误区-一个共识缺口-对谈-405-游局筱宁-868330d2.md): [2026 AI 游戏全景扫描：四层图景、三大误区、一个共识缺口｜对谈 405 游局筱宁](AI/crossing/episodes/2026-05-27-2026-ai-游戏全景扫描-四层图景-三大误区-一个共识缺口-对谈-405-游局筱宁-868330d2.md)
 - 2026-05-27 [硅基立场](AI/silicon-stance/episodes/2026-05-27-vol-26-2026机器人创业正当时-技术-人才全解析-2fc74d28.md): [Vol.26 2026机器人创业正当时?技术、人才全解析。](AI/silicon-stance/episodes/2026-05-27-vol-26-2026机器人创业正当时-技术-人才全解析-2fc74d28.md)
-- 2026-05-25 [硅谷101](AI/sv101/episodes/2026-05-25-e238-聊聊harness时代ai-first的组织架构-从信任人到信任ai-728b4ee3.md): [E238｜聊聊Harness时代AI-First的组织架构：从信任人到信任AI](AI/sv101/episodes/2026-05-25-e238-聊聊harness时代ai-first的组织架构-从信任人到信任ai-728b4ee3.md)
-- 2026-05-21 [硅谷101](AI/sv101/episodes/2026-05-21-e237-央视和fifa谈判纷争背后-体育赛事转播权的博弈与生意-36d086c3.md): [E237｜央视和FIFA谈判纷争背后，体育赛事转播权的博弈与生意](AI/sv101/episodes/2026-05-21-e237-央视和fifa谈判纷争背后-体育赛事转播权的博弈与生意-36d086c3.md)
-- 2026-05-20 [十字路口Crossing](AI/crossing/episodes/2026-05-20-人类和-ai-agent-的最佳配合方式-还没被发明-对谈-paperboy-a2e41f6b.md): [人类和 AI Agent 的最佳配合方式，还没被发明｜对谈 Paperboy](AI/crossing/episodes/2026-05-20-人类和-ai-agent-的最佳配合方式-还没被发明-对谈-paperboy-a2e41f6b.md)
-- 2026-05-15 [硅谷101](AI/sv101/episodes/2026-05-15-e236-99-的作业都是ai写的-当代名校生眼里-大学还剩下什么-500fd04a.md): [E236｜99%的作业都是AI写的：当代名校生眼里，大学还剩下什么？](AI/sv101/episodes/2026-05-15-e236-99-的作业都是ai写的-当代名校生眼里-大学还剩下什么-500fd04a.md)
-- 2026-05-10 [硅基立场](AI/silicon-stance/episodes/2026-05-10-vol-25-对话-evomap-张昊阳-被-hermes-agent-抄袭-之后的日子-cb429481.md): [Vol.25 对话 EvoMap 张昊阳：被 Hermes Agent “抄袭”之后的日子](AI/silicon-stance/episodes/2026-05-10-vol-25-对话-evomap-张昊阳-被-hermes-agent-抄袭-之后的日子-cb429481.md)
 
 ### Web3
 
@@ -63,19 +63,22 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 
 ### 创业
 
-- 2026-06-07 [Lenny's Newsletter](创业/lennys/episodes/2026-06-07-father-of-the-ipod-and-iphone-on-building-taste-judgment-and-creativity-in-the-ai-era-tony-fd72e175.md): [Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell](创业/lennys/episodes/2026-06-07-father-of-the-ipod-and-iphone-on-building-taste-judgment-and-creativity-in-the-ai-era-tony-fd72e175.md)
-- 2026-06-06 [Lenny's Newsletter](创业/lennys/episodes/2026-06-06-community-wisdom-bootstrapping-vs-raising-funding-building-the-roadmap-of-your-vibe-coded--b5b50750.md): [🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more](创业/lennys/episodes/2026-06-06-community-wisdom-bootstrapping-vs-raising-funding-building-the-roadmap-of-your-vibe-coded--b5b50750.md)
-- 2026-06-04 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-06-04-s8-vol-10-天机智能陈曦-从投资人到-创二代-为何我选择押注力控机器人-d5ee6298.md): [S8 Vol.10 天机智能陈曦：从投资人到「创二代」，为何我选择押注力控机器人？](创业/startup-insider/episodes/2026-06-04-s8-vol-10-天机智能陈曦-从投资人到-创二代-为何我选择押注力控机器人-d5ee6298.md)
-- 2026-06-03 [Lenny's Newsletter](创业/lennys/episodes/2026-06-03-gemini-omni-clone-yourself-with-ai-in-under-15-minutes-7b248d78.md): [Gemini Omni: Clone yourself with AI in under 15 minutes](创业/lennys/episodes/2026-06-03-gemini-omni-clone-yourself-with-ai-in-under-15-minutes-7b248d78.md)
-- 2026-06-01 [Lenny's Newsletter](创业/lennys/episodes/2026-06-01-how-i-ai-codex-goals-explained-claude-opus-4-8-review-building-an-iphone-app-with-zero-tec-005cd2c0.md): [🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills](创业/lennys/episodes/2026-06-01-how-i-ai-codex-goals-explained-claude-opus-4-8-review-building-an-iphone-app-with-zero-tec-005cd2c0.md)
-- 2026-06-01 [Lenny's Newsletter](创业/lennys/episodes/2026-06-01-building-an-iphone-app-with-zero-technical-skills-bryce-rattner-keithley-88ebf5ab.md): [Building an iPhone app with zero technical skills | Bryce Rattner Keithley](创业/lennys/episodes/2026-06-01-building-an-iphone-app-with-zero-technical-skills-bryce-rattner-keithley-88ebf5ab.md)
-- 2026-05-31 [Lenny's Newsletter](创业/lennys/episodes/2026-05-31-a-rational-conversation-on-where-ai-is-actually-going-benedict-evans-0f16b9b6.md): [A rational conversation on where AI is actually going | Benedict Evans](创业/lennys/episodes/2026-05-31-a-rational-conversation-on-where-ai-is-actually-going-benedict-evans-0f16b9b6.md)
-- 2026-05-30 [Lenny's Newsletter](创业/lennys/episodes/2026-05-30-community-wisdom-catching-people-using-ai-during-an-interview-org-design-when-everything-l-d582d4c8.md): [🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more](创业/lennys/episodes/2026-05-30-community-wisdom-catching-people-using-ai-during-an-interview-org-design-when-everything-l-d582d4c8.md)
-- 2026-05-28 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-05-28-s8-vol-9-米正科技张相成-死磕技术-我做了一台全球最小的专业意式咖啡机-9f6dcfd4.md): [S8 Vol.9 米正科技张相成：死磕技术，我做了一台全球最小的专业意式咖啡机](创业/startup-insider/episodes/2026-05-28-s8-vol-9-米正科技张相成-死磕技术-我做了一台全球最小的专业意式咖啡机-9f6dcfd4.md)
-- 2026-05-28 [Lenny's Newsletter](创业/lennys/episodes/2026-05-28-claude-opus-4-8-is-here-is-it-as-good-as-they-say-a54a4ea2.md): [Claude Opus 4.8 is here. Is it as good as they say?](创业/lennys/episodes/2026-05-28-claude-opus-4-8-is-here-is-it-as-good-as-they-say-a54a4ea2.md)
+- 2026-06-17 [Lenny's Newsletter](创业/lennys/episodes/2026-06-17-how-to-design-ai-agent-loops-schedules-goals-and-subagents-in-claude-code-and-codex-0d3f0e24.md): [How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex](创业/lennys/episodes/2026-06-17-how-to-design-ai-agent-loops-schedules-goals-and-subagents-in-claude-code-and-codex-0d3f0e24.md)
+- 2026-06-16 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-06-16-untitled-d92e719d.md): [Untitled](创业/startup-insider/episodes/2026-06-16-untitled-d92e719d.md)
+- 2026-06-15 [Lenny's Newsletter](创业/lennys/episodes/2026-06-15-how-i-ai-claude-fable-5-review-how-braintrust-uses-ai-agents-evals-and-ci-to-ship-better-s-d1445bb0.md): [🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software](创业/lennys/episodes/2026-06-15-how-i-ai-claude-fable-5-review-how-braintrust-uses-ai-agents-evals-and-ci-to-ship-better-s-d1445bb0.md)
+- 2026-06-15 [Lenny's Newsletter](创业/lennys/episodes/2026-06-15-how-braintrust-uses-ai-agents-evals-and-ci-to-ship-better-software-ankur-goyal-c2449f3f.md): [How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal](创业/lennys/episodes/2026-06-15-how-braintrust-uses-ai-agents-evals-and-ci-to-ship-better-software-ankur-goyal-c2449f3f.md)
+- 2026-06-14 [Lenny's Newsletter](创业/lennys/episodes/2026-06-14-the-hidden-pattern-behind-successful-products-mark-pincus-founder-of-zynga-21d7efc5.md): [The hidden pattern behind successful products | Mark Pincus (founder of Zynga)](创业/lennys/episodes/2026-06-14-the-hidden-pattern-behind-successful-products-mark-pincus-founder-of-zynga-21d7efc5.md)
+- 2026-06-13 [Lenny's Newsletter](创业/lennys/episodes/2026-06-13-community-wisdom-how-ai-is-changing-product-operating-models-tracking-work-stress-with-who-ac6a024f.md): [🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more](创业/lennys/episodes/2026-06-13-community-wisdom-how-ai-is-changing-product-operating-models-tracking-work-stress-with-who-ac6a024f.md)
+- 2026-06-13 [42章经](创业/42/episodes/2026-06-13-泡沫的四个必要不充分条件-对谈经济学者朱宁教授-b85e2b65.md): [泡沫的四个必要不充分条件 | 对谈经济学者朱宁教授](创业/42/episodes/2026-06-13-泡沫的四个必要不充分条件-对谈经济学者朱宁教授-b85e2b65.md)
+- 2026-06-11 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-06-11-s8-vol-11-billion-connect徐屾屾-一张sim卡如何治好你的出境焦虑-1f73b6e3.md): [S8 Vol.11 Billion Connect徐屾屾：一张SIM卡如何治好你的出境焦虑？](创业/startup-insider/episodes/2026-06-11-s8-vol-11-billion-connect徐屾屾-一张sim卡如何治好你的出境焦虑-1f73b6e3.md)
+- 2026-06-10 [跨海电波](创业/cross-sea-radio/episodes/2026-06-10-ep18-电视为王-全民上网-墨西哥本土媒体公司带你理解一下这里的内容生态-82225a59.md): [EP18 电视为王，全民上网：墨西哥本土媒体公司带你理解一下这里的内容生态](创业/cross-sea-radio/episodes/2026-06-10-ep18-电视为王-全民上网-墨西哥本土媒体公司带你理解一下这里的内容生态-82225a59.md)
+- 2026-06-09 [Lenny's Newsletter](创业/lennys/episodes/2026-06-09-claude-fable-5-review-what-the-new-mythos-model-gets-right-and-very-wrong-88c5b485.md): [Claude Fable 5 review: what the new Mythos model gets right (and very wrong)](创业/lennys/episodes/2026-06-09-claude-fable-5-review-what-the-new-mythos-model-gets-right-and-very-wrong-88c5b485.md)
 
 ### 市场投资
 
+- 2026-06-14 [The Wanderers 流浪者](市场投资/wanderers/episodes/2026-06-14-进攻是最好的防守-牛市多大跌-热爱杠杆和allin的韩国-crypto零人在意-cc4bc7f6.md): [进攻是最好的防守：牛市多大跌/热爱杠杆和allin的韩国/Crypto零人在意?](市场投资/wanderers/episodes/2026-06-14-进攻是最好的防守-牛市多大跌-热爱杠杆和allin的韩国-crypto零人在意-cc4bc7f6.md)
+- 2026-06-09 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-06-09-169-如果你18岁-正考虑未来把金融当职业-高考季特别策划-de4d4add.md): [169.如果你18岁，正考虑未来把金融当职业｜高考季特别策划](市场投资/qizhulu/episodes/2026-06-09-169-如果你18岁-正考虑未来把金融当职业-高考季特别策划-de4d4add.md)
+- 2026-06-08 [高能量](市场投资/high-energy/episodes/2026-06-08-vol-219-宏观漫谈106-对外投资新规-美元潮汐周期与ai资本狂欢-6-3录制-5f8c20f9.md): [Vol.219 宏观漫谈106｜对外投资新规、美元潮汐周期与AI资本狂欢（6.3录制）](市场投资/high-energy/episodes/2026-06-08-vol-219-宏观漫谈106-对外投资新规-美元潮汐周期与ai资本狂欢-6-3录制-5f8c20f9.md)
 - 2026-06-02 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-06-02-168-银与信-一部日本劳工移民的跨洋汇款史-c81204bf.md): [168. 银与信：一部日本劳工移民的跨洋汇款史](市场投资/qizhulu/episodes/2026-06-02-168-银与信-一部日本劳工移民的跨洋汇款史-c81204bf.md)
 - 2026-05-29 [The Wanderers 流浪者](市场投资/wanderers/episodes/2026-05-29-从忍受到享受-爬坑恒科中概-面对史诗级ipo诱惑-oai-spacex-anthropic-c5b3bd22.md): [从忍受到享受：爬坑恒科中概，面对史诗级IPO诱惑(OAI/SpaceX/Anthropic)](市场投资/wanderers/episodes/2026-05-29-从忍受到享受-爬坑恒科中概-面对史诗级ipo诱惑-oai-spacex-anthropic-c5b3bd22.md)
 - 2026-05-28 [高能量](市场投资/high-energy/episodes/2026-05-28-vol-218-宏观漫谈105-从ai资本市场热潮到挑战石油美元体系-历史几乎每次都一样-5-24录制-6cde201e.md): [Vol.218 宏观漫谈105｜从AI资本市场热潮到挑战石油美元体系，历史几乎每次都一样（5.24录制）](市场投资/high-energy/episodes/2026-05-28-vol-218-宏观漫谈105-从ai资本市场热潮到挑战石油美元体系-历史几乎每次都一样-5-24录制-6cde201e.md)
@@ -83,6 +86,3 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-05-25 [高能量](市场投资/high-energy/episodes/2026-05-25-vol-217-两代财经作家的对话-写作与财富-诱惑与尊严-技术的冲击和价值观的剧变-245a314a.md): [Vol.217 两代财经作家的对话：写作与财富，诱惑与尊严，技术的冲击和价值观的剧变](市场投资/high-energy/episodes/2026-05-25-vol-217-两代财经作家的对话-写作与财富-诱惑与尊严-技术的冲击和价值观的剧变-245a314a.md)
 - 2026-05-15 [The Wanderers 流浪者](市场投资/wanderers/episodes/2026-05-15-三年了-ai还能涨多久-如何面对泡沫-吸血和fomo-f146dfa6.md): [三年了，AI还能涨多久？如何面对泡沫、吸血和FOMO](市场投资/wanderers/episodes/2026-05-15-三年了-ai还能涨多久-如何面对泡沫-吸血和fomo-f146dfa6.md)
 - 2026-05-12 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-05-12-166-普通人能从机构投资者身上学到什么-串台投资abc-413963c8.md): [166.普通人能从机构投资者身上学到什么？｜串台投资ABC](市场投资/qizhulu/episodes/2026-05-12-166-普通人能从机构投资者身上学到什么-串台投资abc-413963c8.md)
-- 2026-05-09 [高能量](市场投资/high-energy/episodes/2026-05-09-vol-216-产业观察41-具身-不够卷-世界模型和机器人大脑-再访逐际动力张巍-2a65d72e.md): [Vol.216 产业观察41｜具身“不够卷”、世界模型和机器人大脑：再访逐际动力张巍](市场投资/high-energy/episodes/2026-05-09-vol-216-产业观察41-具身-不够卷-世界模型和机器人大脑-再访逐际动力张巍-2a65d72e.md)
-- 2026-05-06 [高能量](市场投资/high-energy/episodes/2026-05-06-vol-215-再访王宁-与王宁聊他的2025年以及泡泡玛特的未来-d5e5a390.md): [Vol.215 再访王宁：与王宁聊他的2025年以及泡泡玛特的未来](市场投资/high-energy/episodes/2026-05-06-vol-215-再访王宁-与王宁聊他的2025年以及泡泡玛特的未来-d5e5a390.md)
-- 2026-05-05 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-05-05-165-年报季中的真实中国2026-72863fe8.md): [165.年报季中的真实中国2026](市场投资/qizhulu/episodes/2026-05-05-165-年报季中的真实中国2026-72863fe8.md)

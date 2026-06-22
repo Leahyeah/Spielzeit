@@ -1,11 +1,13 @@
 # YC Library Archive
 
 Source: https://www.ycombinator.com/library
-Scope: selected YC Library series since 2024-06-08
+Scope: selected YC Library series since 2024-06-22
 
 ## Lightcone Podcast
 
-- 2026-06-02 [Inside YC's AI Playbook](lightcone-podcast/2026-06-02-inside-yc-s-ai-playbook.md)
+- 2026-06-19 [The Age Of The 40-Year-Old Solo Founder Is Here](lightcone-podcast/2026-06-19-the-age-of-the-40-year-old-solo-founder-is-here.md)
+- 2026-06-10 ["The CEO Must Be the Chief AI Officer"](lightcone-podcast/2026-06-10-the-ceo-must-be-the-chief-ai-officer.md)
+- 2026-05-27 [Inside YC's AI Playbook](lightcone-podcast/2026-05-27-inside-yc-s-ai-playbook.md)
 - 2026-05-08 [Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers](lightcone-podcast/2026-05-08-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers.md)
 - 2026-04-16 [Robots Are Finally Starting to Work](lightcone-podcast/2026-04-16-robots-are-finally-starting-to-work.md)
 - 2026-03-27 [François Chollet: ARC-AGI-3, Beyond Deep Learning & A New Approach To ML](lightcone-podcast/2026-03-27-fran-ois-chollet-arc-agi-3-beyond-deep-learning-a-new-approach-to-ml.md)

@@ -12,12 +12,13 @@ tags: "AI, 科技"
 - Tags: AI, 科技
 - Feed: https://www.ximalaya.com/album/20119986.xml
 - Resolved feed: https://www.ximalaya.com/album/20119986.xml
-- Episodes archived: 306
+- Episodes archived: 307
 
 纪源资本出品的非严肃商业访谈
 
 ## Latest Episodes
 
+- 2026-06-25 [S8 Vol.13 纷享销客罗旭：AI不会让SaaS消失，但会杀死工具型SaaS](episodes/2026-06-25-s8-vol-13-纷享销客罗旭-ai不会让saas消失-但会杀死工具型saas-39fe48a9.md)
 - 2026-06-16 [Untitled](episodes/2026-06-16-untitled-d92e719d.md)
 - 2026-06-11 [S8 Vol.11 Billion Connect徐屾屾：一张SIM卡如何治好你的出境焦虑？](episodes/2026-06-11-s8-vol-11-billion-connect徐屾屾-一张sim卡如何治好你的出境焦虑-1f73b6e3.md)
 - 2026-06-04 [S8 Vol.10 天机智能陈曦：从投资人到「创二代」，为何我选择押注力控机器人？](episodes/2026-06-04-s8-vol-10-天机智能陈曦-从投资人到-创二代-为何我选择押注力控机器人-d5ee6298.md)
@@ -37,4 +38,3 @@ tags: "AI, 科技"
 - 2025-12-11 [S7 Vol.37 VITURE 姜公略：一位「XR老炮」眼中的人机交互未来](episodes/2025-12-11-s7-vol-37-viture-姜公略-一位-xr老炮-眼中的人机交互未来-5ffcc10f.md)
 - 2025-12-04 [S7 Vol.36 派迅智能华鑫：制造业的「菜鸟驿站」，如何重构了工厂物流？](episodes/2025-12-04-s7-vol-36-派迅智能华鑫-制造业的-菜鸟驿站-如何重构了工厂物流-351e710d.md)
 - 2025-11-27 [S7 Vol.35 HINOMI 章则远：一把「爱不释臀」的椅子是如何诞生的？](episodes/2025-11-27-s7-vol-35-hinomi-章则远-一把-爱不释臀-的椅子是如何诞生的-31277d42.md)
-- 2025-11-20 [S7 Vol.34 聚复科技卢鹏宇：你也能做「造物主」！3D打印的创造力革命](episodes/2025-11-20-s7-vol-34-聚复科技卢鹏宇-你也能做-造物主-3d打印的创造力革命-8eb056c9.md)

@@ -1,14 +1,23 @@
 # Anthropic Research Archive
 
 Source: https://www.anthropic.com/research and https://www.anthropic.com/sitemap.xml
-Last updated: 2026-05-24
-Archived pages: 117
+Last updated: 2026-06-30
+Archived pages: 138
 
 This archive stores Anthropic public research pages as Markdown for reading and follow-up summaries.
 
 ## Publications
 
+- [Anthropic Economic Index report: Cadences](research/economic-index-june-2026-report.md) - Economic Research | Jun 26, 2026
+- [Project Fetch: Phase two](research/project-fetch-phase-two.md) - Frontier Red Team | Jun 18, 2026
+- [Agentic coding and persistent returns to expertise](research/claude-code-expertise.md) - Economic Research | Jun 16, 2026
+- [Paving the way for agents in biology](research/agents-in-biology.md) - Science | Jun 8, 2026
+- [Measuring LLMs’ impact on N-day exploits](research/n-days.md) - Frontier Red Team | Jun 8, 2026
+- [Making Claude a chemist](research/making-claude-a-chemist.md) - Science | Jun 5, 2026
+- [Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator](research/attack-navigator.md) - Frontier Red Team | Jun 3, 2026
+- [Coding agents in the social sciences](research/coding-agents-social-sciences.md) - Economic Research | May 27, 2026
 - [Project Glasswing: An initial update](research/glasswing-initial-update.md) - Announcements | May 22, 2026
+- [Measuring LLMs’ ability to develop exploits](research/exploit-evals.md) - Frontier Red Team | May 22, 2026
 - [2028: Two scenarios for global AI leadership](research/2028-ai-leadership.md) - Policy | May 14, 2026
 - [Teaching Claude why](research/teaching-claude-why.md) - Alignment | May 8, 2026
 - [Natural Language Autoencoders: Turning Claude’s thoughts into text](research/natural-language-autoencoders.md) - Interpretability | May 7, 2026
@@ -20,6 +29,7 @@ This archive stores Anthropic public research pages as Markdown for reading and 
 - [Announcing the Anthropic Economic Index Survey](research/economic-index-survey-announcement.md) - Economic Research | Apr 22, 2026
 - [Automated Alignment Researchers: Using large language models to scale scalable oversight](research/automated-alignment-researchers.md) - Alignment | Apr 14, 2026
 - [Trustworthy agents in practice](research/trustworthy-agents.md) - Policy | Apr 9, 2026
+- [Assessing Claude Mythos Preview’s cybersecurity capabilities](research/mythos-preview.md) - Frontier Red Team | Apr 7, 2026
 - [Emotion concepts and their function in a large language model](research/emotion-concepts-function.md) - Interpretability | Apr 2, 2026
 - [How Australia Uses Claude: Findings from the Anthropic Economic Index](research/how-australia-uses-claude.md) - Economic Research | Mar 31, 2026
 - [Anthropic Economic Index report: Learning curves](research/economic-index-march-2026-report.md) - Economic Research | Mar 24, 2026
@@ -27,22 +37,28 @@ This archive stores Anthropic public research pages as Markdown for reading and 
 - [Long-running Claude for scientific computing](research/long-running-Claude.md) - Science | Mar 23, 2026
 - [Introducing our Science Blog](research/introducing-anthropic-science.md) - Science | Mar 23, 2026
 - [A “diff” tool for AI: Finding behavioral differences in new models](research/diff-tool.md) - Interpretability | Mar 13, 2026
+- [Reverse engineering Claude's CVE-2026-2796 exploit](research/exploit.md) - Frontier Red Team | Mar 6, 2026
 - [Labor market impacts of AI: A new measure and early evidence](research/labor-market-impacts.md) - Economic Research | Mar 5, 2026
 - [An update on our model deprecation commitments for Claude Opus 3](research/deprecation-updates-opus-3.md) - Alignment | Feb 25, 2026
 - [The persona selection model](research/persona-selection-model.md) - Alignment | Feb 23, 2026
 - [Anthropic Education Report: The AI Fluency Index](research/AI-fluency-index.md) - Announcements | Feb 23, 2026
 - [Measuring AI agent autonomy in practice](research/measuring-agent-autonomy.md) - Societal Impacts | Feb 18, 2026
 - [India Country Brief: The Anthropic Economic Index](research/india-brief-economic-index.md) - Economic Research | Feb 16, 2026
+- [Evaluating and mitigating the growing risk of LLM-discovered 0-days](research/zero-days.md) - Frontier Red Team | Feb 5, 2026
 - [How AI assistance impacts the formation of coding skills](research/AI-assistance-coding-skills.md) - Alignment | Jan 29, 2026
 - [Disempowerment patterns in real-world AI usage](research/disempowerment-patterns.md) - Alignment | Jan 28, 2026
 - [The assistant axis: situating and stabilizing the character of large language models](research/assistant-axis.md) - Interpretability | Jan 19, 2026
+- [AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges](research/cyber-toolkits-update.md) - Frontier Red Team | Jan 16, 2026
 - [Anthropic Economic Index: New building blocks for understanding AI use](research/economic-index-primitives.md) - Economic Research | Jan 15, 2026
 - [Anthropic Economic Index report: Economic primitives](research/anthropic-economic-index-january-2026-report.md) - Economic Research | Jan 15, 2026
+- [Finding bugs across the Python ecosystem with Claude and property-based testing](research/property-based-testing.md) - Frontier Red Team | Jan 14, 2026
 - [Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks](research/next-generation-constitutional-classifiers.md) - Alignment | Jan 9, 2026
+- [Experimenting with AI to defend critical infrastructure](research/critical-infrastructure-defense.md) - Frontier Red Team | Jan 8, 2026
 - [Introducing Bloom: an open source tool for automated behavioral evaluations](research/bloom.md) - Alignment | Dec 19, 2025
 - [Project Vend: Phase two](research/project-vend-2.md) - Policy Frontier Red Team | Dec 18, 2025
 - [Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI](research/anthropic-interviewer.md) - Societal Impacts | Dec 4, 2025
 - [How AI is transforming work at Anthropic](research/how-ai-is-transforming-work-at-anthropic.md) - Societal Impacts | Dec 2, 2025
+- [AI agents find $4.6M in blockchain smart contract exploits](research/smart-contracts.md) - Frontier Red Team | Dec 1, 2025
 - [Estimating AI productivity gains from Claude conversations](research/estimating-productivity-gains.md) - Economic Research | Nov 25, 2025
 - [Mitigating the risk of prompt injections in browser use](research/prompt-injection-defenses.md) - Product | Nov 24, 2025
 - [From shortcuts to sabotage: natural emergent misalignment from reward hacking](research/emergent-misalignment-reward-hacking.md) - Alignment | Nov 21, 2025
@@ -55,12 +71,17 @@ This archive stores Anthropic public research pages as Markdown for reading and 
 - [Building AI for cyber defenders](research/building-ai-cyber-defenders.md) - Policy | Oct 3, 2025
 - [Anthropic Economic Index: Tracking AI’s role in the US and global economy](research/economic-index-geography.md) - Economic Research | Sep 15, 2025
 - [Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](research/anthropic-economic-index-september-2025-report.md) - Economic Research | Sep 15, 2025
+- [Why do we take LLMs seriously as a potential source of biorisk?](research/biorisk.md) - Frontier Red Team | Sep 5, 2025
+- [Developing nuclear safeguards for AI](research/nuclear-safeguards-for-ai.md) - Frontier Red Team | Aug 21, 2025
 - [Claude Opus 4 and 4.1 can now end a rare subset of conversations](research/end-subset-conversations.md) - Alignment | Aug 15, 2025
+- [Claude is competitive with humans in (some) cyber competitions](research/cyber-competitions.md) - Frontier Red Team | Aug 9, 2025
 - [Persona vectors: Monitoring and controlling character traits in language models](research/persona-vectors.md) - Interpretability | Aug 1, 2025
+- [Detailed cyber evaluations of Claude 4](research/claude-4-cyber.md) - Frontier Red Team | Jul 15, 2025
 - [Project Vend: Can Claude run a small shop? (And why does that matter?)](research/project-vend-1.md) - Frontier Red Team Policy | Jun 27, 2025
 - [Agentic Misalignment: How LLMs could be insider threats](research/agentic-misalignment.md) - Alignment | Jun 20, 2025
 - [Confidential Inference via Trusted Virtual Machines](research/confidential-inference-trusted-vms.md) - Announcements | Jun 18, 2025
 - [SHADE-Arena: Evaluating sabotage and monitoring in LLM agents](research/shade-arena-sabotage-monitoring.md) - Alignment | Jun 16, 2025
+- [LLMs with cyber toolkits can conduct multistage cyber operations on business-sized computer networks](research/cyber-toolkits.md) - Frontier Red Team | Jun 13, 2025
 - [Open-sourcing circuit tracing tools](research/open-source-circuit-tracing.md) - Interpretability | May 29, 2025
 - [Anthropic Economic Index: AI’s impact on software development](research/impact-software-development.md) - Societal Impacts Economic Research | Apr 28, 2025
 - [Exploring model welfare](research/exploring-model-welfare.md) - Alignment | Apr 24, 2025

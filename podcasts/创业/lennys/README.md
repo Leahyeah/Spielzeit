@@ -18,6 +18,8 @@ Deeply researched product, growth, and career advice for product leaders, founde
 
 ## Latest Episodes
 
+- 2026-06-30 [Sonnet 5 review: I ran 64 generations to find out if it's worth it](episodes/2026-06-30-sonnet-5-review-i-ran-64-generations-to-find-out-if-it-s-worth-it-9f5b9a73.md)
+- 2026-06-30 [How top PMs increase their leverage with AI](episodes/2026-06-30-how-top-pms-increase-their-leverage-with-ai-371da5c2.md)
 - 2026-06-29 [🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code](episodes/2026-06-29-how-i-ai-glm-5-2-review-how-gusto-built-a-new-product-line-with-claude-code-e25a2746.md)
 - 2026-06-29 [No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)](episodes/2026-06-29-no-figma-no-jira-no-docs-how-gusto-built-a-new-product-line-with-claude-code-eddie-kim-cto-4770d097.md)
 - 2026-06-28 [OpenAI Codex lead on the new shape of product work | Andrew Ambrosino](episodes/2026-06-28-openai-codex-lead-on-the-new-shape-of-product-work-andrew-ambrosino-6208239b.md)
@@ -36,5 +38,3 @@ Deeply researched product, growth, and career advice for product leaders, founde
 - 2026-06-09 [Claude Fable 5 review: what the new Mythos model gets right (and very wrong)](episodes/2026-06-09-claude-fable-5-review-what-the-new-mythos-model-gets-right-and-very-wrong-88c5b485.md)
 - 2026-06-09 [Essential books for product builders—part 2](episodes/2026-06-09-essential-books-for-product-builders-part-2-0e663681.md)
 - 2026-06-08 [🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude](episodes/2026-06-08-how-i-ai-gemini-omni-clone-yourself-with-ai-in-under-15-minutes-shopping-with-claude-1fb14707.md)
-- 2026-06-08 [Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz](episodes/2026-06-08-shopping-with-claude-how-to-find-quality-brands-automate-returns-and-buy-things-that-last--ad20cc63.md)
-- 2026-06-07 [Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell](episodes/2026-06-07-father-of-the-ipod-and-iphone-on-building-taste-judgment-and-creativity-in-the-ai-era-tony-fd72e175.md)

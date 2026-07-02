@@ -1,6 +1,6 @@
 # Podcast Archive
 
-Last updated: 2026-06-30
+Last updated: 2026-07-02
 
 This archive stores podcast RSS metadata and text fields only. Audio files are linked but not stored.
 
@@ -37,6 +37,8 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 
 ### AI
 
+- 2026-07-02 [硅基立场](AI/silicon-stance/episodes/2026-07-02-vol-30-对话-sand-ai-曹越-我现在是-100-的-founder-0-的-researcher-91d7ddfa.md): [Vol.30 对话 Sand.ai 曹越：我现在是 100% 的 founder，0% 的 researcher](AI/silicon-stance/episodes/2026-07-02-vol-30-对话-sand-ai-曹越-我现在是-100-的-founder-0-的-researcher-91d7ddfa.md)
+- 2026-07-01 [十字路口Crossing](AI/crossing/episodes/2026-07-01-agent-元年第-500-天-什么在消失-什么在诞生-为什么我们不该再投资-gui-思维的软件-d278ecc1.md): [Agent 元年第 500 天：什么在消失，什么在诞生——为什么我们不该再投资 GUI 思维的软件？](AI/crossing/episodes/2026-07-01-agent-元年第-500-天-什么在消失-什么在诞生-为什么我们不该再投资-gui-思维的软件-d278ecc1.md)
 - 2026-06-28 [十字路口Crossing](AI/crossing/episodes/2026-06-28-我遇到了第一个真正想买的陪伴机器人-对话世博-越伴动力创始人-公路播客-dab27701.md): [我遇到了第一个真正想买的陪伴机器人！｜对话世博：越伴动力创始人【公路播客】](AI/crossing/episodes/2026-06-28-我遇到了第一个真正想买的陪伴机器人-对话世博-越伴动力创始人-公路播客-dab27701.md)
 - 2026-06-26 [硅谷101](AI/sv101/episodes/2026-06-26-e241-跑鞋技术迭代史-马拉松跑进2小时-靠人还是靠鞋-c8edab52.md): [E241｜跑鞋技术迭代史：马拉松跑进2小时，靠人还是靠鞋？](AI/sv101/episodes/2026-06-26-e241-跑鞋技术迭代史-马拉松跑进2小时-靠人还是靠鞋-c8edab52.md)
 - 2026-06-21 [十字路口Crossing](AI/crossing/episodes/2026-06-21-对话-minimax-闫俊杰-m3-10x-计划-10t-模型-和智能的终局-d402ac0f.md): [对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局](AI/crossing/episodes/2026-06-21-对话-minimax-闫俊杰-m3-10x-计划-10t-模型-和智能的终局-d402ac0f.md)
@@ -45,8 +47,6 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-06-18 [硅谷101](AI/sv101/episodes/2026-06-18-e240-openai联手pe砸下40亿美元-聊聊硅谷最火新职位fde-9fc7b660.md): [E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE](AI/sv101/episodes/2026-06-18-e240-openai联手pe砸下40亿美元-聊聊硅谷最火新职位fde-9fc7b660.md)
 - 2026-06-12 [硅谷101](AI/sv101/episodes/2026-06-12-e239-spacex要让太空算力从科幻走向现实-但它划算吗-1c81e97f.md): [E239｜SpaceX要让太空算力从科幻走向现实，但它划算吗？](AI/sv101/episodes/2026-06-12-e239-spacex要让太空算力从科幻走向现实-但它划算吗-1c81e97f.md)
 - 2026-06-10 [十字路口Crossing](AI/crossing/episodes/2026-06-10-高手怎么用-ai-普通人怎么学-ai-投资人如何投-ai-对谈课代表立正-6bf1b6db.md): [高手怎么用 AI？普通人怎么学 AI？投资人如何投 AI？｜对谈课代表立正](AI/crossing/episodes/2026-06-10-高手怎么用-ai-普通人怎么学-ai-投资人如何投-ai-对谈课代表立正-6bf1b6db.md)
-- 2026-06-04 [硅基立场](AI/silicon-stance/episodes/2026-06-04-vol-28-对话-bot-auto-创始人侯晓迪-有人说我扭曲堕落-我只是把爱给了生活-b5c17af1.md): [Vol.28 对话 Bot Auto 创始人侯晓迪：有人说我扭曲堕落，我只是把爱给了生活](AI/silicon-stance/episodes/2026-06-04-vol-28-对话-bot-auto-创始人侯晓迪-有人说我扭曲堕落-我只是把爱给了生活-b5c17af1.md)
-- 2026-06-03 [十字路口Crossing](AI/crossing/episodes/2026-06-03-openai-和-anthropic-共同看好的-fde-ai-时代的新岗位出现-旧分工松动-对谈-rolling-ai-b05b6755.md): [OpenAI 和 Anthropic 共同看好的 FDE：AI 时代的新岗位出现，旧分工松动｜对谈 Rolling AI](AI/crossing/episodes/2026-06-03-openai-和-anthropic-共同看好的-fde-ai-时代的新岗位出现-旧分工松动-对谈-rolling-ai-b05b6755.md)
 
 ### Web3
 
@@ -63,6 +63,9 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 
 ### 创业
 
+- 2026-07-01 [跨海电波](创业/cross-sea-radio/episodes/2026-07-01-re-美的如何用一款产品拯救德国人的夏天-cd109b90.md): [Re_美的如何用一款产品拯救德国人的夏天？](创业/cross-sea-radio/episodes/2026-07-01-re-美的如何用一款产品拯救德国人的夏天-cd109b90.md)
+- 2026-06-30 [Lenny's Newsletter](创业/lennys/episodes/2026-06-30-sonnet-5-review-i-ran-64-generations-to-find-out-if-it-s-worth-it-9f5b9a73.md): [Sonnet 5 review: I ran 64 generations to find out if it's worth it](创业/lennys/episodes/2026-06-30-sonnet-5-review-i-ran-64-generations-to-find-out-if-it-s-worth-it-9f5b9a73.md)
+- 2026-06-30 [Lenny's Newsletter](创业/lennys/episodes/2026-06-30-how-top-pms-increase-their-leverage-with-ai-371da5c2.md): [How top PMs increase their leverage with AI](创业/lennys/episodes/2026-06-30-how-top-pms-increase-their-leverage-with-ai-371da5c2.md)
 - 2026-06-29 [Lenny's Newsletter](创业/lennys/episodes/2026-06-29-how-i-ai-glm-5-2-review-how-gusto-built-a-new-product-line-with-claude-code-e25a2746.md): [🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code](创业/lennys/episodes/2026-06-29-how-i-ai-glm-5-2-review-how-gusto-built-a-new-product-line-with-claude-code-e25a2746.md)
 - 2026-06-29 [Lenny's Newsletter](创业/lennys/episodes/2026-06-29-no-figma-no-jira-no-docs-how-gusto-built-a-new-product-line-with-claude-code-eddie-kim-cto-4770d097.md): [No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)](创业/lennys/episodes/2026-06-29-no-figma-no-jira-no-docs-how-gusto-built-a-new-product-line-with-claude-code-eddie-kim-cto-4770d097.md)
 - 2026-06-28 [Lenny's Newsletter](创业/lennys/episodes/2026-06-28-openai-codex-lead-on-the-new-shape-of-product-work-andrew-ambrosino-6208239b.md): [OpenAI Codex lead on the new shape of product work | Andrew Ambrosino](创业/lennys/episodes/2026-06-28-openai-codex-lead-on-the-new-shape-of-product-work-andrew-ambrosino-6208239b.md)
@@ -70,12 +73,10 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-06-27 [42章经](创业/42/episodes/2026-06-27-少有的深度参与过字节-美团组织建设的人-对谈-ai-创业者魏小康-93a0d643.md): [少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康](创业/42/episodes/2026-06-27-少有的深度参与过字节-美团组织建设的人-对谈-ai-创业者魏小康-93a0d643.md)
 - 2026-06-25 [创业内幕 Startup Insider](创业/startup-insider/episodes/2026-06-25-s8-vol-13-纷享销客罗旭-ai不会让saas消失-但会杀死工具型saas-39fe48a9.md): [S8 Vol.13 纷享销客罗旭：AI不会让SaaS消失，但会杀死工具型SaaS](创业/startup-insider/episodes/2026-06-25-s8-vol-13-纷享销客罗旭-ai不会让saas消失-但会杀死工具型saas-39fe48a9.md)
 - 2026-06-24 [Lenny's Newsletter](创业/lennys/episodes/2026-06-24-glm-5-2-why-i-m-replacing-opus-in-claude-code-with-this-new-model-2c994410.md): [GLM 5.2: why I’m replacing Opus in Claude Code with this new model](创业/lennys/episodes/2026-06-24-glm-5-2-why-i-m-replacing-opus-in-claude-code-with-this-new-model-2c994410.md)
-- 2026-06-24 [跨海电波](创业/cross-sea-radio/episodes/2026-06-24-ep19-为什么-世界杯是每一个跨境卖家的现象级机会-be763670.md): [EP19 为什么，世界杯是每一个跨境卖家的现象级机会？](创业/cross-sea-radio/episodes/2026-06-24-ep19-为什么-世界杯是每一个跨境卖家的现象级机会-be763670.md)
-- 2026-06-23 [Lenny's Newsletter](创业/lennys/episodes/2026-06-23-the-new-inner-game-your-unfair-advantage-in-the-age-of-ai-20efbaf5.md): [The new inner game: Your unfair advantage in the age of AI](创业/lennys/episodes/2026-06-23-the-new-inner-game-your-unfair-advantage-in-the-age-of-ai-20efbaf5.md)
-- 2026-06-22 [Lenny's Newsletter](创业/lennys/episodes/2026-06-22-how-i-ai-how-to-write-ai-agent-loops-in-claude-code-and-codex-how-claude-mythos-found-a-15-0a32f997.md): [🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox](创业/lennys/episodes/2026-06-22-how-i-ai-how-to-write-ai-agent-loops-in-claude-code-and-codex-how-claude-mythos-found-a-15-0a32f997.md)
 
 ### 市场投资
 
+- 2026-06-30 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-06-30-171-为什么牛市后期更容易亏钱-半年度投资账复盘-715a6a0e.md): [171.为什么牛市后期更容易亏钱？| 半年度投资账复盘](市场投资/qizhulu/episodes/2026-06-30-171-为什么牛市后期更容易亏钱-半年度投资账复盘-715a6a0e.md)
 - 2026-06-26 [高能量](市场投资/high-energy/episodes/2026-06-26-vol-222-宏观漫谈107-2026年以来-中国经济结构调整的四大新变化-6-23录制-726c2454.md): [Vol.222 宏观漫谈107｜2026年以来，中国经济结构调整的四大新变化（6.23录制）](市场投资/high-energy/episodes/2026-06-26-vol-222-宏观漫谈107-2026年以来-中国经济结构调整的四大新变化-6-23录制-726c2454.md)
 - 2026-06-26 [高能量](市场投资/high-energy/episodes/2026-06-26-vol-221-历史是无数行为的合力-与苗棣老师聊他的创作-史观和对媒介环境变化的看法-7401cbd7.md): [Vol.221 历史是无数行为的合力：与苗棣老师聊他的创作、史观和对媒介环境变化的看法](市场投资/high-energy/episodes/2026-06-26-vol-221-历史是无数行为的合力-与苗棣老师聊他的创作-史观和对媒介环境变化的看法-7401cbd7.md)
 - 2026-06-23 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-06-23-170-1929-的泡沫之夏-三个代表人物-和他们在当下周期的影子-2dc4eca7.md): [170.《1929》的泡沫之夏：三个代表人物，和他们在当下周期的影子](市场投资/qizhulu/episodes/2026-06-23-170-1929-的泡沫之夏-三个代表人物-和他们在当下周期的影子-2dc4eca7.md)
@@ -85,4 +86,3 @@ This archive stores podcast RSS metadata and text fields only. Audio files are l
 - 2026-06-08 [高能量](市场投资/high-energy/episodes/2026-06-08-vol-219-宏观漫谈106-对外投资新规-美元潮汐周期与ai资本狂欢-6-3录制-5f8c20f9.md): [Vol.219 宏观漫谈106｜对外投资新规、美元潮汐周期与AI资本狂欢（6.3录制）](市场投资/high-energy/episodes/2026-06-08-vol-219-宏观漫谈106-对外投资新规-美元潮汐周期与ai资本狂欢-6-3录制-5f8c20f9.md)
 - 2026-06-02 [起朱楼宴宾客](市场投资/qizhulu/episodes/2026-06-02-168-银与信-一部日本劳工移民的跨洋汇款史-c81204bf.md): [168. 银与信：一部日本劳工移民的跨洋汇款史](市场投资/qizhulu/episodes/2026-06-02-168-银与信-一部日本劳工移民的跨洋汇款史-c81204bf.md)
 - 2026-05-29 [The Wanderers 流浪者](市场投资/wanderers/episodes/2026-05-29-从忍受到享受-爬坑恒科中概-面对史诗级ipo诱惑-oai-spacex-anthropic-c5b3bd22.md): [从忍受到享受：爬坑恒科中概，面对史诗级IPO诱惑(OAI/SpaceX/Anthropic)](市场投资/wanderers/episodes/2026-05-29-从忍受到享受-爬坑恒科中概-面对史诗级ipo诱惑-oai-spacex-anthropic-c5b3bd22.md)
-- 2026-05-28 [高能量](市场投资/high-energy/episodes/2026-05-28-vol-218-宏观漫谈105-从ai资本市场热潮到挑战石油美元体系-历史几乎每次都一样-5-24录制-6cde201e.md): [Vol.218 宏观漫谈105｜从AI资本市场热潮到挑战石油美元体系，历史几乎每次都一样（5.24录制）](市场投资/high-energy/episodes/2026-05-28-vol-218-宏观漫谈105-从ai资本市场热潮到挑战石油美元体系-历史几乎每次都一样-5-24录制-6cde201e.md)

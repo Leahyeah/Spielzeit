@@ -1,7 +1,7 @@
 # YC Library Archive
 
 Source: https://www.ycombinator.com/library
-Scope: selected YC Library series since 2024-06-22
+Scope: selected YC Library series since 2024-05-11
 
 ## Lightcone Podcast
 
@@ -45,6 +45,7 @@ Scope: selected YC Library series since 2024-06-22
 - 2024-08-22 [Are We In An AI Hype Cycle?](lightcone-podcast/2024-08-22-are-we-in-an-ai-hype-cycle.md)
 - 2024-08-09 [Gmail Creator Paul Buchheit On AGI, Open Source Models, Freedom](lightcone-podcast/2024-08-09-gmail-creator-paul-buchheit-on-agi-open-source-models-freedom.md)
 - 2024-06-27 [10 People + AI = Billion Dollar Company?](lightcone-podcast/2024-06-27-10-people-ai-billion-dollar-company.md)
+- 2024-06-06 [Better AI Models, Better Startups [Lightcone Podcast Ep. 7]](lightcone-podcast/2024-06-06-better-ai-models-better-startups-lightcone-podcast-ep-7.md)
 
 ## How To Build The Future
 

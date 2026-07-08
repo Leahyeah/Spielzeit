@@ -1,13 +1,14 @@
 # Anthropic Research Archive
 
 Source: https://www.anthropic.com/research and https://www.anthropic.com/sitemap.xml
-Last updated: 2026-06-30
-Archived pages: 138
+Last updated: 2026-07-08
+Archived pages: 139
 
 This archive stores Anthropic public research pages as Markdown for reading and follow-up summaries.
 
 ## Publications
 
+- [A global workspace in language models](research/global-workspace.md) - Interpretability | Jul 6, 2026
 - [Anthropic Economic Index report: Cadences](research/economic-index-june-2026-report.md) - Economic Research | Jun 26, 2026
 - [Project Fetch: Phase two](research/project-fetch-phase-two.md) - Frontier Red Team | Jun 18, 2026
 - [Agentic coding and persistent returns to expertise](research/claude-code-expertise.md) - Economic Research | Jun 16, 2026

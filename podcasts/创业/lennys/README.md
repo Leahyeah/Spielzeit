@@ -18,6 +18,10 @@ Deeply researched product, growth, and career advice for product leaders, founde
 
 ## Latest Episodes
 
+- 2026-07-07 [How tech workers are feeling in 2026: a workforce splitting in two](episodes/2026-07-07-how-tech-workers-are-feeling-in-2026-a-workforce-splitting-in-two-1484302d.md)
+- 2026-07-06 [🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone](episodes/2026-07-06-how-i-ai-sonnet-5-review-how-to-run-autonomous-coding-agents-from-your-phone-6c4c992d.md)
+- 2026-07-06 [How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)](episodes/2026-07-06-how-i-run-autonomous-coding-agents-from-my-phone-with-openai-symphony-linear-alessio-fanel-1e5422c3.md)
+- 2026-07-04 [🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more](episodes/2026-07-04-community-wisdom-quarterly-planning-and-ai-cash-vs-equity-comp-paying-for-interview-exerci-514d2108.md)
 - 2026-06-30 [Sonnet 5 review: I ran 64 generations to find out if it's worth it](episodes/2026-06-30-sonnet-5-review-i-ran-64-generations-to-find-out-if-it-s-worth-it-9f5b9a73.md)
 - 2026-06-30 [How top PMs increase their leverage with AI](episodes/2026-06-30-how-top-pms-increase-their-leverage-with-ai-371da5c2.md)
 - 2026-06-29 [🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code](episodes/2026-06-29-how-i-ai-glm-5-2-review-how-gusto-built-a-new-product-line-with-claude-code-e25a2746.md)
@@ -34,7 +38,3 @@ Deeply researched product, growth, and career advice for product leaders, founde
 - 2026-06-15 [🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software](episodes/2026-06-15-how-i-ai-claude-fable-5-review-how-braintrust-uses-ai-agents-evals-and-ci-to-ship-better-s-d1445bb0.md)
 - 2026-06-15 [How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal](episodes/2026-06-15-how-braintrust-uses-ai-agents-evals-and-ci-to-ship-better-software-ankur-goyal-c2449f3f.md)
 - 2026-06-14 [The hidden pattern behind successful products | Mark Pincus (founder of Zynga)](episodes/2026-06-14-the-hidden-pattern-behind-successful-products-mark-pincus-founder-of-zynga-21d7efc5.md)
-- 2026-06-13 [🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more](episodes/2026-06-13-community-wisdom-how-ai-is-changing-product-operating-models-tracking-work-stress-with-who-ac6a024f.md)
-- 2026-06-09 [Claude Fable 5 review: what the new Mythos model gets right (and very wrong)](episodes/2026-06-09-claude-fable-5-review-what-the-new-mythos-model-gets-right-and-very-wrong-88c5b485.md)
-- 2026-06-09 [Essential books for product builders—part 2](episodes/2026-06-09-essential-books-for-product-builders-part-2-0e663681.md)
-- 2026-06-08 [🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude](episodes/2026-06-08-how-i-ai-gemini-omni-clone-yourself-with-ai-in-under-15-minutes-shopping-with-claude-1fb14707.md)
